@@ -1,8 +1,10 @@
+## pyopenfigi
+
 ![Python 3.10](https://img.shields.io/badge/python-3.10-blue)
 ![Black](https://img.shields.io/badge/code%20style-black-black)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Unofficial Python wrapper for the [OpenFIGI API](https://www.openfigi.com/api) v3.
+Python wrapper for the [OpenFIGI API](https://www.openfigi.com/api) v3.
 
 ## Table of contents
 
@@ -231,7 +233,6 @@ mapping_jobs = [MappingJob(id_type="TICKER", id_value="IBM", exch_code="US")]
 
 try:
     results = OpenFigi().map(mapping_jobs)
-
 except HTTPError as e:
     print(f"{e}")
     # Do something
