@@ -1,0 +1,96 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.28.2
+    method: GET
+    uri: https://api.openfigi.com/v3/mapping/values/micCode
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAAy2Wu5LEphZF/2ViRxM6Q4AkRrxaoG56XA5ucDNnLjtx+d8t9holq3icJ+eA/vn4
+        +39//PX/Pz9+/e3DfI7x8cuHsV5YfZ8Iw4NjIvUmjDJR2VlHnHj4S2gSeCB32gK0s416YzHdgwIa
+        eE9YiS/+EsLTTHwxGcvUsiQP1gQY9RVIWTFd6HaiIdBXablOyT2tVD/TlLOfUm1NnZPWSqf1DlzC
+        Hgyw4AtoLXk30fznDbcpWhekxR1ac4d8cS1pdKW55hdglTrvNgMK0FqKTlB8nvh8Nlqr58y8P4Mm
+        e9TkZXfhpdHYZrRraHNyRXzN7hDWIAQmleT1NIugnG13Cie8/NyS34Q85bamc9+PNOV2HNxJ+d6E
+        YJXBYH0UJBC8khxu1yZW4wQdR1g9IyUkrDGCAqRsbchd0+sQsiYJLBBDaDIbKaIYpDqGx9QZW5vO
+        x66d8S3xZCI4V6HnCSvPkj3fgrojkYm0ql5SaELpAseRmg4ndWPALljQLHBA9q48R/lTKc9GOjM5
+        y45JX7wgJ3KQu7mcQLnO3yq34tR4JamWSgqz4wpbCg17D5Iw5klXLNS1P8BMZI3VCUpyvc6p8yxq
+        5rPI0InOs8vd8xLaora4cQlqrkYfNa8w25YuoMndnILy0kJ6TtDhrYbpZ/vWWl/aDOVu4rnW05ie
+        9SIt/cHk6Q24hByFytpDeLHl5afq65Dcy/npxIsSHsZ58DNqgnwZJm5CYpRYU0EPczLZEFdChuk7
+        0M5FNXFjATvI4BSWL8FGkMATSOfi0OKY9Oz0iHsM+bcQWDsOIWI2Yi8jXjbAzoK9ghZ1/w3Mnpg9
+        HUDLeQGUNdZIwdJx6WLyYvLC0NMC7D3ZqXdlWBNAAwrFLitgyyLPLAmx3gKFYnXPD7sz2lEWmAzo
+        TIzyQyB2np4b6MRdOz6BYrBviTuOylltcaTc6T0ableWXJJZR2k4XSzDYcFhwV0LkLjnpL1l5LXT
+        q9GH16Mx/ENBe9LK7XZDI9pirIfs4crKgW16DMeGYxuhb7iydSVpu7S2mwR0tDuFta8S348VSGDP
+        jHR9jkAiAqcRHEg6lJBZeyiu0AzoQDu/MPvFefPYj8NYcIJvgWM/1L3jWBeAAPEdnPARQcmAkS7M
+        cfxYuF4T0aiiotPOqMttRNo9oiwGmY1fqvVIBmNxADlOMepfYSQaPOkFueFBBBl0IJ2JDCYum+Sf
+        AGUba0F+powcmU/FAgxRyAmXEkEnmjhVRZto1NQYdfy8ECCGTPtlTiVzKtk6wKR7ADmRab/sq7Cx
+        RX8xNxAnn/lgRFlnrs9MTfB2j/xmJ52WvzVZ8KXoER2lKoaCQGkKmudoVHJdKZtKvdQ9AumsgZ1c
+        dbWwk2TVorxUOqdSn1W/puORZP2hx348LmXpJD3nImX8iY0zqVpPdDazggQq6EDHfz+YAlXA78to
+        pLVxvTSqvG0/UHbbzoirrpHklrBQkeNVag1l5Izfsxs/I5R1fNE/92ivH8iXTlo7oXQqpFPQ3Ssv
+        fWXtKKABhdl5LPjpGvwyjE7VXYt2XvphGVcE7Hxi4ckt+iTzL872xUvwbRT7N6n7VgreURl839+N
+        +8coffz+738vwo4b7AwAAA==
+    headers:
+      cache-control:
+      - private, no-cache, no-store, must-revalidate
+      content-encoding:
+      - gzip
+      content-security-policy:
+      - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self''
+        https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src
+        ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Tue, 25 Apr 2023 09:20:44 GMT
+      expect-ct:
+      - max-age=0
+      expires:
+      - '0'
+      pragma:
+      - no-cache
+      ratelimit-limit:
+      - '25'
+      ratelimit-remaining:
+      - '15'
+      ratelimit-reset:
+      - '57'
+      referrer-policy:
+      - no-referrer
+      server:
+      - istio-envoy
+      strict-transport-security:
+      - max-age=63244800; includeSubDomains
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding
+      x-content-type-options:
+      - nosniff
+      x-dns-prefetch-control:
+      - 'off'
+      x-download-options:
+      - noopen
+      x-envoy-upstream-service-time:
+      - '11'
+      x-frame-options:
+      - SAMEORIGIN
+      x-permitted-cross-domain-policies:
+      - none
+      x-request-id:
+      - 14e75276-3eba-4324-b35e-c8f2116e106e
+      x-xss-protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+version: 1

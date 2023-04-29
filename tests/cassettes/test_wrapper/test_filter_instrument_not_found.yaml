@@ -1,0 +1,77 @@
+interactions:
+- request:
+    body: '{"query": "UNKNOWN_TICKER"}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '27'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.28.2
+    method: POST
+    uri: https://api.openfigi.com/v3/filter
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA6tWSkksSVSyio7VUSrJL0nMUbIyqAUAsKwYzhUAAAA=
+    headers:
+      cache-control:
+      - private, no-cache, no-store, must-revalidate
+      content-encoding:
+      - gzip
+      content-security-policy:
+      - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self''
+        https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src
+        ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Tue, 25 Apr 2023 09:34:46 GMT
+      expect-ct:
+      - max-age=0
+      expires:
+      - '0'
+      pragma:
+      - no-cache
+      ratelimit-limit:
+      - '5'
+      ratelimit-remaining:
+      - '4'
+      ratelimit-reset:
+      - '60'
+      referrer-policy:
+      - no-referrer
+      server:
+      - istio-envoy
+      strict-transport-security:
+      - max-age=63244800; includeSubDomains
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding
+      x-content-type-options:
+      - nosniff
+      x-dns-prefetch-control:
+      - 'off'
+      x-download-options:
+      - noopen
+      x-envoy-upstream-service-time:
+      - '6'
+      x-frame-options:
+      - SAMEORIGIN
+      x-permitted-cross-domain-policies:
+      - none
+      x-request-id:
+      - 9f7fdbe2-7cc0-4bf1-a37a-acfbfc8c9bc9
+      x-xss-protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+version: 1

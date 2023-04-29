@@ -1,0 +1,80 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.28.2
+    method: GET
+    uri: https://api.openfigi.com/v3/mapping/values/stateCode
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAAx3Ru1LDMBSE4XdxzRPQ5ebYVnQcR0ocw1BQ0NEx0DC8O/7S/GPN2d2zkn+bn/fP
+        74+v5vm12Wybp2azgw4SnCDDBQpUeFmxJd4OK3YbELAbYQK6Hd2ebn9YcZDcPtADb2tHy9aKP4o6
+        7qEFy4+PwRXuILSj66zsJHdHENrJ6wKEdrw9cS+0p+vdrafr6XpNB8eBeLAjcSTFE0kSlUwTcdIl
+        LStOdCeS7CsrlC3KWmXbslb5IZGSpWQp2T2CIywKtmALtvBM4YVCtfAQISX8ipASUkKXuMEM2odq
+        o4DRVUe2kW1kG9lGkrPOZyvPppMaE9tk5UXxQlIMin7FtDwGkovkIq/YW9yoclRXqNpXukpXLa/E
+        lbhqcHW8cdyE3hxnx9lx5p3dbSa+y7vbsZAsQheOxRu8DM3b3z8Wta+G0gIAAA==
+    headers:
+      cache-control:
+      - private, no-cache, no-store, must-revalidate
+      content-encoding:
+      - gzip
+      content-security-policy:
+      - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self''
+        https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src
+        ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Tue, 25 Apr 2023 09:20:46 GMT
+      expect-ct:
+      - max-age=0
+      expires:
+      - '0'
+      pragma:
+      - no-cache
+      ratelimit-limit:
+      - '25'
+      ratelimit-remaining:
+      - '10'
+      ratelimit-reset:
+      - '55'
+      referrer-policy:
+      - no-referrer
+      server:
+      - istio-envoy
+      strict-transport-security:
+      - max-age=63244800; includeSubDomains
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding
+      x-content-type-options:
+      - nosniff
+      x-dns-prefetch-control:
+      - 'off'
+      x-download-options:
+      - noopen
+      x-envoy-upstream-service-time:
+      - '4'
+      x-frame-options:
+      - SAMEORIGIN
+      x-permitted-cross-domain-policies:
+      - none
+      x-request-id:
+      - 02a68943-9361-4735-9e0c-02b5fbcc2dbd
+      x-xss-protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+version: 1

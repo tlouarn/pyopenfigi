@@ -1,0 +1,2350 @@
+interactions:
+- request:
+    body: '[{"idType": "TICKER", "idValue": "IBM"}]'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '40'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.28.2
+    method: POST
+    uri: https://api.openfigi.com/v3/mapping
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA92c3XOaQBDA/xXG56bDhwr2zQME+QoCCtrpg2Np6yTGVMlMM53+7wXTpqm6SMa1
+        0723KHDr/u729vaDvP/e+jgv5q1377+3Pi0/L1vvWoxZoigyLwjsbutN626+ystvh0HiCWwcDwMz
+        jgW/r9vVX4J+HYXlTcVycZNvqtuYX37Mvy2+6OuP1XPjuPy8WK/u19tlkQ+G1vBQxDZfPGyWxWPy
+        eF89oq9Xq/WdEBfrxU15dTXf3ORFnC+KdSXB/PpQ3lo99WW+yfXb+Xb7clQp7sRKr7c3qnw47O/L
+        Rr5dbJb3xXJ99+v3/3hzhMVERGDR54JFyFQEFjoXLEYSho0EfLCwMGwk5IJFpGoILBgfLFKMdZFw
+        wSLWOggsfD5YRG0EFhkXLFIHg4XBBYssxLCRAR8sJgh+ZDLlgsW0JyGwcPhg4SOcOycuByxSWTPk
+        81mEJswilVVbJMFixvze+SzitIbFLxH/O4tB7IperR+50k3D7Ee1JHaXj5N4FrBP4veor2XA0u5s
+        f7yKgZHvpM83j0KUL/JS7VeTkNTaVdGIBOxPKZGQO+eTgDNaZEi4suJgROsWbB/PIv73naL6oQmC
+        N7VgC6HEwg0RsnsWHIlQYuEpCN7Ugk/flFj4Osa6gPdOSiyCjoLAAs7iUGIxkjD8CJzppMQiijH2
+        iyEXLGIVY13Y9FkELNUYQnbPvAZZPIsgwIK1EbJ7GbwuSLHA2C8yuJJKisUMIbuXwWdwQiyygYSQ
+        9c3gjBYlFpaIcO7M4KwvKRYuxt7pccHCtjBsxOKDRYbhR7g4X2SuheFH4DiVFIsAIU7N4K41Siw8
+        jCqRKXHBwvcwbATuyKHEIpAR4tQMrphRYhHqGHHquIZFFqQqBRa27qoINhLOYBalCFGjwCKUU4bg
+        Rzy4y7USISsEWIwGyQxjXSRwbFaKmPoUbCSaBl0fwacmcC6nEiET2DslJXLs7ks/wvyTit893N4e
+        KP705Z6647fxW0EPDzX1r/yb4oiih6Ps1AvrlKoEHNPLkS+ml28aQmJGvhBc7wziLO38JKhVr7p+
+        qF/c7ojdi85baRYCM/vRv5jAITumohv/FQagqmiOo2vhCf1FZ888Pn1TS0suq9vFZ808YneyrfZs
+        BcHPxHVdbTQ6udosdUcOQq5HB+tqf0RQYOEi9KroYM2AFov6Dr+GLEAbIcOi05OcyMPI9UzIx7Fd
+        vzuV6/sdm7Fg9LtgVdVKegpC/WQE5np2ImQCNmI4emp7GG9T0H+zZDDzbW+AwMIC8xs7EQaB/gxr
+        1I3bKQKLPrh37kRMCOwXTqBahoFRb4XfyiPiRyRlIqWs3eAMfqUb9Q3jOpT4eiFjD8afpu5XcXga
+        sLNvded3jO8GHqQYNBKoZZwYDUtqcN46TQMqQFOj0WtwEj9Jw+CFBmuQFz1JYwQdNKjRMBpU2E7T
+        gNLE1GgEDWKT0zQ4sBTN1uQJxv/V8eAOBSJdwpLmSKOpgZDx8+DqKxUWPS8MZblBluuklTCKO+iH
+        Hx9+Ahh3OVOWSwAA
+    headers:
+      cache-control:
+      - private, no-cache, no-store, must-revalidate
+      content-encoding:
+      - gzip
+      content-security-policy:
+      - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self''
+        https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src
+        ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Tue, 25 Apr 2023 09:33:22 GMT
+      expect-ct:
+      - max-age=0
+      expires:
+      - '0'
+      pragma:
+      - no-cache
+      ratelimit-limit:
+      - '25'
+      ratelimit-remaining:
+      - '23'
+      ratelimit-reset:
+      - '52'
+      referrer-policy:
+      - no-referrer
+      server:
+      - istio-envoy
+      strict-transport-security:
+      - max-age=63244800; includeSubDomains
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding
+      x-content-type-options:
+      - nosniff
+      x-dns-prefetch-control:
+      - 'off'
+      x-download-options:
+      - noopen
+      x-envoy-upstream-service-time:
+      - '5'
+      x-frame-options:
+      - SAMEORIGIN
+      x-permitted-cross-domain-policies:
+      - none
+      x-request-id:
+      - 90625983-4510-4c23-83fc-d4cc4d08f7b9
+      x-xss-protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '[{"idType": "TICKER", "idValue": "IBM"}]'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '40'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.28.2
+    method: POST
+    uri: https://api.openfigi.com/v3/mapping
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA92c3XOaQBDA/xXG56bDhwr2zQME+QoCCtrpg2Np6yTGVMlMM53+7wXTpqm6SMa1
+        0723KHDr/u729vaDvP/e+jgv5q1377+3Pi0/L1vvWoxZoigyLwjsbutN626+ystvh0HiCWwcDwMz
+        jgW/r9vVX4J+HYXlTcVycZNvqtuYX37Mvy2+6OuP1XPjuPy8WK/u19tlkQ+G1vBQxDZfPGyWxWPy
+        eF89oq9Xq/WdEBfrxU15dTXf3ORFnC+KdSXB/PpQ3lo99WW+yfXb+Xb7clQp7sRKr7c3qnw47O/L
+        Rr5dbJb3xXJ99+v3/3hzhMVERGDR54JFyFQEFjoXLEYSho0EfLCwMGwk5IJFpGoILBgfLFKMdZFw
+        wSLWOggsfD5YRG0EFhkXLFIHg4XBBYssxLCRAR8sJgh+ZDLlgsW0JyGwcPhg4SOcOycuByxSWTPk
+        81mEJswilVVbJMFixvze+SzitIbFLxH/O4tB7IperR+50k3D7Ee1JHaXj5N4FrBP4veor2XA0u5s
+        f7yKgZHvpM83j0KUL/JS7VeTkNTaVdGIBOxPKZGQO+eTgDNaZEi4suJgROsWbB/PIv73naL6oQmC
+        N7VgC6HEwg0RsnsWHIlQYuEpCN7Ugk/flFj4Osa6gPdOSiyCjoLAAs7iUGIxkjD8CJzppMQiijH2
+        iyEXLGIVY13Y9FkELNUYQnbPvAZZPIsgwIK1EbJ7GbwuSLHA2C8yuJJKisUMIbuXwWdwQiyygYSQ
+        9c3gjBYlFpaIcO7M4KwvKRYuxt7pccHCtjBsxOKDRYbhR7g4X2SuheFH4DiVFIsAIU7N4K41Siw8
+        jCqRKXHBwvcwbATuyKHEIpAR4tQMrphRYhHqGHHquIZFFqQqBRa27qoINhLOYBalCFGjwCKUU4bg
+        Rzy4y7USISsEWIwGyQxjXSRwbFaKmPoUbCSaBl0fwacmcC6nEiET2DslJXLs7ks/wvyTit893N4e
+        KP705Z6647fxW0EPDzX1r/yb4oiih6Ps1AvrlKoEHNPLkS+ml28aQmJGvhBc7wziLO38JKhVr7p+
+        qF/c7ojdi85baRYCM/vRv5jAITumohv/FQagqmiOo2vhCf1FZ888Pn1TS0suq9vFZ808YneyrfZs
+        BcHPxHVdbTQ6udosdUcOQq5HB+tqf0RQYOEi9KroYM2AFov6Dr+GLEAbIcOi05OcyMPI9UzIx7Fd
+        vzuV6/sdm7Fg9LtgVdVKegpC/WQE5np2ImQCNmI4emp7GG9T0H+zZDDzbW+AwMIC8xs7EQaB/gxr
+        1I3bKQKLPrh37kRMCOwXTqBahoFRb4XfyiPiRyRlIqWs3eAMfqUb9Q3jOpT4eiFjD8afpu5XcXga
+        sLNvded3jO8GHqQYNBKoZZwYDUtqcN46TQMqQFOj0WtwEj9Jw+CFBmuQFz1JYwQdNKjRMBpU2E7T
+        gNLE1GgEDWKT0zQ4sBTN1uQJxv/V8eAOBSJdwpLmSKOpgZDx8+DqKxUWPS8MZblBluuklTCKO+iH
+        Hx9+Ahh3OVOWSwAA
+    headers:
+      cache-control:
+      - private, no-cache, no-store, must-revalidate
+      content-encoding:
+      - gzip
+      content-security-policy:
+      - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self''
+        https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src
+        ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Tue, 25 Apr 2023 09:33:22 GMT
+      expect-ct:
+      - max-age=0
+      expires:
+      - '0'
+      pragma:
+      - no-cache
+      ratelimit-limit:
+      - '25'
+      ratelimit-remaining:
+      - '22'
+      ratelimit-reset:
+      - '52'
+      referrer-policy:
+      - no-referrer
+      server:
+      - istio-envoy
+      strict-transport-security:
+      - max-age=63244800; includeSubDomains
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding
+      x-content-type-options:
+      - nosniff
+      x-dns-prefetch-control:
+      - 'off'
+      x-download-options:
+      - noopen
+      x-envoy-upstream-service-time:
+      - '6'
+      x-frame-options:
+      - SAMEORIGIN
+      x-permitted-cross-domain-policies:
+      - none
+      x-request-id:
+      - b7acadbc-635c-43d0-9b1d-51a1bd60fc6f
+      x-xss-protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '[{"idType": "TICKER", "idValue": "IBM"}]'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '40'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.28.2
+    method: POST
+    uri: https://api.openfigi.com/v3/mapping
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA92c3XOaQBDA/xXG56bDhwr2zQME+QoCCtrpg2Np6yTGVMlMM53+7wXTpqm6SMa1
+        0723KHDr/u729vaDvP/e+jgv5q1377+3Pi0/L1vvWoxZoigyLwjsbutN626+ystvh0HiCWwcDwMz
+        jgW/r9vVX4J+HYXlTcVycZNvqtuYX37Mvy2+6OuP1XPjuPy8WK/u19tlkQ+G1vBQxDZfPGyWxWPy
+        eF89oq9Xq/WdEBfrxU15dTXf3ORFnC+KdSXB/PpQ3lo99WW+yfXb+Xb7clQp7sRKr7c3qnw47O/L
+        Rr5dbJb3xXJ99+v3/3hzhMVERGDR54JFyFQEFjoXLEYSho0EfLCwMGwk5IJFpGoILBgfLFKMdZFw
+        wSLWOggsfD5YRG0EFhkXLFIHg4XBBYssxLCRAR8sJgh+ZDLlgsW0JyGwcPhg4SOcOycuByxSWTPk
+        81mEJswilVVbJMFixvze+SzitIbFLxH/O4tB7IperR+50k3D7Ee1JHaXj5N4FrBP4veor2XA0u5s
+        f7yKgZHvpM83j0KUL/JS7VeTkNTaVdGIBOxPKZGQO+eTgDNaZEi4suJgROsWbB/PIv73naL6oQmC
+        N7VgC6HEwg0RsnsWHIlQYuEpCN7Ugk/flFj4Osa6gPdOSiyCjoLAAs7iUGIxkjD8CJzppMQiijH2
+        iyEXLGIVY13Y9FkELNUYQnbPvAZZPIsgwIK1EbJ7GbwuSLHA2C8yuJJKisUMIbuXwWdwQiyygYSQ
+        9c3gjBYlFpaIcO7M4KwvKRYuxt7pccHCtjBsxOKDRYbhR7g4X2SuheFH4DiVFIsAIU7N4K41Siw8
+        jCqRKXHBwvcwbATuyKHEIpAR4tQMrphRYhHqGHHquIZFFqQqBRa27qoINhLOYBalCFGjwCKUU4bg
+        Rzy4y7USISsEWIwGyQxjXSRwbFaKmPoUbCSaBl0fwacmcC6nEiET2DslJXLs7ks/wvyTit893N4e
+        KP705Z6647fxW0EPDzX1r/yb4oiih6Ps1AvrlKoEHNPLkS+ml28aQmJGvhBc7wziLO38JKhVr7p+
+        qF/c7ojdi85baRYCM/vRv5jAITumohv/FQagqmiOo2vhCf1FZ888Pn1TS0suq9vFZ808YneyrfZs
+        BcHPxHVdbTQ6udosdUcOQq5HB+tqf0RQYOEi9KroYM2AFov6Dr+GLEAbIcOi05OcyMPI9UzIx7Fd
+        vzuV6/sdm7Fg9LtgVdVKegpC/WQE5np2ImQCNmI4emp7GG9T0H+zZDDzbW+AwMIC8xs7EQaB/gxr
+        1I3bKQKLPrh37kRMCOwXTqBahoFRb4XfyiPiRyRlIqWs3eAMfqUb9Q3jOpT4eiFjD8afpu5XcXga
+        sLNvded3jO8GHqQYNBKoZZwYDUtqcN46TQMqQFOj0WtwEj9Jw+CFBmuQFz1JYwQdNKjRMBpU2E7T
+        gNLE1GgEDWKT0zQ4sBTN1uQJxv/V8eAOBSJdwpLmSKOpgZDx8+DqKxUWPS8MZblBluuklTCKO+iH
+        Hx9+Ahh3OVOWSwAA
+    headers:
+      cache-control:
+      - private, no-cache, no-store, must-revalidate
+      content-encoding:
+      - gzip
+      content-security-policy:
+      - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self''
+        https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src
+        ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Tue, 25 Apr 2023 09:33:22 GMT
+      expect-ct:
+      - max-age=0
+      expires:
+      - '0'
+      pragma:
+      - no-cache
+      ratelimit-limit:
+      - '25'
+      ratelimit-remaining:
+      - '21'
+      ratelimit-reset:
+      - '51'
+      referrer-policy:
+      - no-referrer
+      server:
+      - istio-envoy
+      strict-transport-security:
+      - max-age=63244800; includeSubDomains
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding
+      x-content-type-options:
+      - nosniff
+      x-dns-prefetch-control:
+      - 'off'
+      x-download-options:
+      - noopen
+      x-envoy-upstream-service-time:
+      - '5'
+      x-frame-options:
+      - SAMEORIGIN
+      x-permitted-cross-domain-policies:
+      - none
+      x-request-id:
+      - c1460f92-f2c4-4319-93f4-60500357673a
+      x-xss-protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '[{"idType": "TICKER", "idValue": "IBM"}]'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '40'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.28.2
+    method: POST
+    uri: https://api.openfigi.com/v3/mapping
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA92c3XOaQBDA/xXG56bDhwr2zQME+QoCCtrpg2Np6yTGVMlMM53+7wXTpqm6SMa1
+        0723KHDr/u729vaDvP/e+jgv5q1377+3Pi0/L1vvWoxZoigyLwjsbutN626+ystvh0HiCWwcDwMz
+        jgW/r9vVX4J+HYXlTcVycZNvqtuYX37Mvy2+6OuP1XPjuPy8WK/u19tlkQ+G1vBQxDZfPGyWxWPy
+        eF89oq9Xq/WdEBfrxU15dTXf3ORFnC+KdSXB/PpQ3lo99WW+yfXb+Xb7clQp7sRKr7c3qnw47O/L
+        Rr5dbJb3xXJ99+v3/3hzhMVERGDR54JFyFQEFjoXLEYSho0EfLCwMGwk5IJFpGoILBgfLFKMdZFw
+        wSLWOggsfD5YRG0EFhkXLFIHg4XBBYssxLCRAR8sJgh+ZDLlgsW0JyGwcPhg4SOcOycuByxSWTPk
+        81mEJswilVVbJMFixvze+SzitIbFLxH/O4tB7IperR+50k3D7Ee1JHaXj5N4FrBP4veor2XA0u5s
+        f7yKgZHvpM83j0KUL/JS7VeTkNTaVdGIBOxPKZGQO+eTgDNaZEi4suJgROsWbB/PIv73naL6oQmC
+        N7VgC6HEwg0RsnsWHIlQYuEpCN7Ugk/flFj4Osa6gPdOSiyCjoLAAs7iUGIxkjD8CJzppMQiijH2
+        iyEXLGIVY13Y9FkELNUYQnbPvAZZPIsgwIK1EbJ7GbwuSLHA2C8yuJJKisUMIbuXwWdwQiyygYSQ
+        9c3gjBYlFpaIcO7M4KwvKRYuxt7pccHCtjBsxOKDRYbhR7g4X2SuheFH4DiVFIsAIU7N4K41Siw8
+        jCqRKXHBwvcwbATuyKHEIpAR4tQMrphRYhHqGHHquIZFFqQqBRa27qoINhLOYBalCFGjwCKUU4bg
+        Rzy4y7USISsEWIwGyQxjXSRwbFaKmPoUbCSaBl0fwacmcC6nEiET2DslJXLs7ks/wvyTit893N4e
+        KP705Z6647fxW0EPDzX1r/yb4oiih6Ps1AvrlKoEHNPLkS+ml28aQmJGvhBc7wziLO38JKhVr7p+
+        qF/c7ojdi85baRYCM/vRv5jAITumohv/FQagqmiOo2vhCf1FZ888Pn1TS0suq9vFZ808YneyrfZs
+        BcHPxHVdbTQ6udosdUcOQq5HB+tqf0RQYOEi9KroYM2AFov6Dr+GLEAbIcOi05OcyMPI9UzIx7Fd
+        vzuV6/sdm7Fg9LtgVdVKegpC/WQE5np2ImQCNmI4emp7GG9T0H+zZDDzbW+AwMIC8xs7EQaB/gxr
+        1I3bKQKLPrh37kRMCOwXTqBahoFRb4XfyiPiRyRlIqWs3eAMfqUb9Q3jOpT4eiFjD8afpu5XcXga
+        sLNvded3jO8GHqQYNBKoZZwYDUtqcN46TQMqQFOj0WtwEj9Jw+CFBmuQFz1JYwQdNKjRMBpU2E7T
+        gNLE1GgEDWKT0zQ4sBTN1uQJxv/V8eAOBSJdwpLmSKOpgZDx8+DqKxUWPS8MZblBluuklTCKO+iH
+        Hx9+Ahh3OVOWSwAA
+    headers:
+      cache-control:
+      - private, no-cache, no-store, must-revalidate
+      content-encoding:
+      - gzip
+      content-security-policy:
+      - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self''
+        https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src
+        ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Tue, 25 Apr 2023 09:33:23 GMT
+      expect-ct:
+      - max-age=0
+      expires:
+      - '0'
+      pragma:
+      - no-cache
+      ratelimit-limit:
+      - '25'
+      ratelimit-remaining:
+      - '20'
+      ratelimit-reset:
+      - '51'
+      referrer-policy:
+      - no-referrer
+      server:
+      - istio-envoy
+      strict-transport-security:
+      - max-age=63244800; includeSubDomains
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding
+      x-content-type-options:
+      - nosniff
+      x-dns-prefetch-control:
+      - 'off'
+      x-download-options:
+      - noopen
+      x-envoy-upstream-service-time:
+      - '6'
+      x-frame-options:
+      - SAMEORIGIN
+      x-permitted-cross-domain-policies:
+      - none
+      x-request-id:
+      - 8612b35a-69f1-4290-b325-41ec47d7dff8
+      x-xss-protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '[{"idType": "TICKER", "idValue": "IBM"}]'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '40'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.28.2
+    method: POST
+    uri: https://api.openfigi.com/v3/mapping
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA92c3XOaQBDA/xXG56bDhwr2zQME+QoCCtrpg2Np6yTGVMlMM53+7wXTpqm6SMa1
+        0723KHDr/u729vaDvP/e+jgv5q1377+3Pi0/L1vvWoxZoigyLwjsbutN626+ystvh0HiCWwcDwMz
+        jgW/r9vVX4J+HYXlTcVycZNvqtuYX37Mvy2+6OuP1XPjuPy8WK/u19tlkQ+G1vBQxDZfPGyWxWPy
+        eF89oq9Xq/WdEBfrxU15dTXf3ORFnC+KdSXB/PpQ3lo99WW+yfXb+Xb7clQp7sRKr7c3qnw47O/L
+        Rr5dbJb3xXJ99+v3/3hzhMVERGDR54JFyFQEFjoXLEYSho0EfLCwMGwk5IJFpGoILBgfLFKMdZFw
+        wSLWOggsfD5YRG0EFhkXLFIHg4XBBYssxLCRAR8sJgh+ZDLlgsW0JyGwcPhg4SOcOycuByxSWTPk
+        81mEJswilVVbJMFixvze+SzitIbFLxH/O4tB7IperR+50k3D7Ee1JHaXj5N4FrBP4veor2XA0u5s
+        f7yKgZHvpM83j0KUL/JS7VeTkNTaVdGIBOxPKZGQO+eTgDNaZEi4suJgROsWbB/PIv73naL6oQmC
+        N7VgC6HEwg0RsnsWHIlQYuEpCN7Ugk/flFj4Osa6gPdOSiyCjoLAAs7iUGIxkjD8CJzppMQiijH2
+        iyEXLGIVY13Y9FkELNUYQnbPvAZZPIsgwIK1EbJ7GbwuSLHA2C8yuJJKisUMIbuXwWdwQiyygYSQ
+        9c3gjBYlFpaIcO7M4KwvKRYuxt7pccHCtjBsxOKDRYbhR7g4X2SuheFH4DiVFIsAIU7N4K41Siw8
+        jCqRKXHBwvcwbATuyKHEIpAR4tQMrphRYhHqGHHquIZFFqQqBRa27qoINhLOYBalCFGjwCKUU4bg
+        Rzy4y7USISsEWIwGyQxjXSRwbFaKmPoUbCSaBl0fwacmcC6nEiET2DslJXLs7ks/wvyTit893N4e
+        KP705Z6647fxW0EPDzX1r/yb4oiih6Ps1AvrlKoEHNPLkS+ml28aQmJGvhBc7wziLO38JKhVr7p+
+        qF/c7ojdi85baRYCM/vRv5jAITumohv/FQagqmiOo2vhCf1FZ888Pn1TS0suq9vFZ808YneyrfZs
+        BcHPxHVdbTQ6udosdUcOQq5HB+tqf0RQYOEi9KroYM2AFov6Dr+GLEAbIcOi05OcyMPI9UzIx7Fd
+        vzuV6/sdm7Fg9LtgVdVKegpC/WQE5np2ImQCNmI4emp7GG9T0H+zZDDzbW+AwMIC8xs7EQaB/gxr
+        1I3bKQKLPrh37kRMCOwXTqBahoFRb4XfyiPiRyRlIqWs3eAMfqUb9Q3jOpT4eiFjD8afpu5XcXga
+        sLNvded3jO8GHqQYNBKoZZwYDUtqcN46TQMqQFOj0WtwEj9Jw+CFBmuQFz1JYwQdNKjRMBpU2E7T
+        gNLE1GgEDWKT0zQ4sBTN1uQJxv/V8eAOBSJdwpLmSKOpgZDx8+DqKxUWPS8MZblBluuklTCKO+iH
+        Hx9+Ahh3OVOWSwAA
+    headers:
+      cache-control:
+      - private, no-cache, no-store, must-revalidate
+      content-encoding:
+      - gzip
+      content-security-policy:
+      - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self''
+        https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src
+        ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Tue, 25 Apr 2023 09:33:23 GMT
+      expect-ct:
+      - max-age=0
+      expires:
+      - '0'
+      pragma:
+      - no-cache
+      ratelimit-limit:
+      - '25'
+      ratelimit-remaining:
+      - '19'
+      ratelimit-reset:
+      - '50'
+      referrer-policy:
+      - no-referrer
+      server:
+      - istio-envoy
+      strict-transport-security:
+      - max-age=63244800; includeSubDomains
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding
+      x-content-type-options:
+      - nosniff
+      x-dns-prefetch-control:
+      - 'off'
+      x-download-options:
+      - noopen
+      x-envoy-upstream-service-time:
+      - '6'
+      x-frame-options:
+      - SAMEORIGIN
+      x-permitted-cross-domain-policies:
+      - none
+      x-request-id:
+      - d6b8b9fe-286f-42be-9c6d-96d4f69868b2
+      x-xss-protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '[{"idType": "TICKER", "idValue": "IBM"}]'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '40'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.28.2
+    method: POST
+    uri: https://api.openfigi.com/v3/mapping
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA92c3XOaQBDA/xXG56bDhwr2zQME+QoCCtrpg2Np6yTGVMlMM53+7wXTpqm6SMa1
+        0723KHDr/u729vaDvP/e+jgv5q1377+3Pi0/L1vvWoxZoigyLwjsbutN626+ystvh0HiCWwcDwMz
+        jgW/r9vVX4J+HYXlTcVycZNvqtuYX37Mvy2+6OuP1XPjuPy8WK/u19tlkQ+G1vBQxDZfPGyWxWPy
+        eF89oq9Xq/WdEBfrxU15dTXf3ORFnC+KdSXB/PpQ3lo99WW+yfXb+Xb7clQp7sRKr7c3qnw47O/L
+        Rr5dbJb3xXJ99+v3/3hzhMVERGDR54JFyFQEFjoXLEYSho0EfLCwMGwk5IJFpGoILBgfLFKMdZFw
+        wSLWOggsfD5YRG0EFhkXLFIHg4XBBYssxLCRAR8sJgh+ZDLlgsW0JyGwcPhg4SOcOycuByxSWTPk
+        81mEJswilVVbJMFixvze+SzitIbFLxH/O4tB7IperR+50k3D7Ee1JHaXj5N4FrBP4veor2XA0u5s
+        f7yKgZHvpM83j0KUL/JS7VeTkNTaVdGIBOxPKZGQO+eTgDNaZEi4suJgROsWbB/PIv73naL6oQmC
+        N7VgC6HEwg0RsnsWHIlQYuEpCN7Ugk/flFj4Osa6gPdOSiyCjoLAAs7iUGIxkjD8CJzppMQiijH2
+        iyEXLGIVY13Y9FkELNUYQnbPvAZZPIsgwIK1EbJ7GbwuSLHA2C8yuJJKisUMIbuXwWdwQiyygYSQ
+        9c3gjBYlFpaIcO7M4KwvKRYuxt7pccHCtjBsxOKDRYbhR7g4X2SuheFH4DiVFIsAIU7N4K41Siw8
+        jCqRKXHBwvcwbATuyKHEIpAR4tQMrphRYhHqGHHquIZFFqQqBRa27qoINhLOYBalCFGjwCKUU4bg
+        Rzy4y7USISsEWIwGyQxjXSRwbFaKmPoUbCSaBl0fwacmcC6nEiET2DslJXLs7ks/wvyTit893N4e
+        KP705Z6647fxW0EPDzX1r/yb4oiih6Ps1AvrlKoEHNPLkS+ml28aQmJGvhBc7wziLO38JKhVr7p+
+        qF/c7ojdi85baRYCM/vRv5jAITumohv/FQagqmiOo2vhCf1FZ888Pn1TS0suq9vFZ808YneyrfZs
+        BcHPxHVdbTQ6udosdUcOQq5HB+tqf0RQYOEi9KroYM2AFov6Dr+GLEAbIcOi05OcyMPI9UzIx7Fd
+        vzuV6/sdm7Fg9LtgVdVKegpC/WQE5np2ImQCNmI4emp7GG9T0H+zZDDzbW+AwMIC8xs7EQaB/gxr
+        1I3bKQKLPrh37kRMCOwXTqBahoFRb4XfyiPiRyRlIqWs3eAMfqUb9Q3jOpT4eiFjD8afpu5XcXga
+        sLNvded3jO8GHqQYNBKoZZwYDUtqcN46TQMqQFOj0WtwEj9Jw+CFBmuQFz1JYwQdNKjRMBpU2E7T
+        gNLE1GgEDWKT0zQ4sBTN1uQJxv/V8eAOBSJdwpLmSKOpgZDx8+DqKxUWPS8MZblBluuklTCKO+iH
+        Hx9+Ahh3OVOWSwAA
+    headers:
+      cache-control:
+      - private, no-cache, no-store, must-revalidate
+      content-encoding:
+      - gzip
+      content-security-policy:
+      - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self''
+        https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src
+        ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Tue, 25 Apr 2023 09:33:24 GMT
+      expect-ct:
+      - max-age=0
+      expires:
+      - '0'
+      pragma:
+      - no-cache
+      ratelimit-limit:
+      - '25'
+      ratelimit-remaining:
+      - '18'
+      ratelimit-reset:
+      - '50'
+      referrer-policy:
+      - no-referrer
+      server:
+      - istio-envoy
+      strict-transport-security:
+      - max-age=63244800; includeSubDomains
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding
+      x-content-type-options:
+      - nosniff
+      x-dns-prefetch-control:
+      - 'off'
+      x-download-options:
+      - noopen
+      x-envoy-upstream-service-time:
+      - '5'
+      x-frame-options:
+      - SAMEORIGIN
+      x-permitted-cross-domain-policies:
+      - none
+      x-request-id:
+      - 023f940f-24e7-43d8-9e73-663ce89a7111
+      x-xss-protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '[{"idType": "TICKER", "idValue": "IBM"}]'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '40'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.28.2
+    method: POST
+    uri: https://api.openfigi.com/v3/mapping
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA92c3XOaQBDA/xXG56bDhwr2zQME+QoCCtrpg2Np6yTGVMlMM53+7wXTpqm6SMa1
+        0723KHDr/u729vaDvP/e+jgv5q1377+3Pi0/L1vvWoxZoigyLwjsbutN626+ystvh0HiCWwcDwMz
+        jgW/r9vVX4J+HYXlTcVycZNvqtuYX37Mvy2+6OuP1XPjuPy8WK/u19tlkQ+G1vBQxDZfPGyWxWPy
+        eF89oq9Xq/WdEBfrxU15dTXf3ORFnC+KdSXB/PpQ3lo99WW+yfXb+Xb7clQp7sRKr7c3qnw47O/L
+        Rr5dbJb3xXJ99+v3/3hzhMVERGDR54JFyFQEFjoXLEYSho0EfLCwMGwk5IJFpGoILBgfLFKMdZFw
+        wSLWOggsfD5YRG0EFhkXLFIHg4XBBYssxLCRAR8sJgh+ZDLlgsW0JyGwcPhg4SOcOycuByxSWTPk
+        81mEJswilVVbJMFixvze+SzitIbFLxH/O4tB7IperR+50k3D7Ee1JHaXj5N4FrBP4veor2XA0u5s
+        f7yKgZHvpM83j0KUL/JS7VeTkNTaVdGIBOxPKZGQO+eTgDNaZEi4suJgROsWbB/PIv73naL6oQmC
+        N7VgC6HEwg0RsnsWHIlQYuEpCN7Ugk/flFj4Osa6gPdOSiyCjoLAAs7iUGIxkjD8CJzppMQiijH2
+        iyEXLGIVY13Y9FkELNUYQnbPvAZZPIsgwIK1EbJ7GbwuSLHA2C8yuJJKisUMIbuXwWdwQiyygYSQ
+        9c3gjBYlFpaIcO7M4KwvKRYuxt7pccHCtjBsxOKDRYbhR7g4X2SuheFH4DiVFIsAIU7N4K41Siw8
+        jCqRKXHBwvcwbATuyKHEIpAR4tQMrphRYhHqGHHquIZFFqQqBRa27qoINhLOYBalCFGjwCKUU4bg
+        Rzy4y7USISsEWIwGyQxjXSRwbFaKmPoUbCSaBl0fwacmcC6nEiET2DslJXLs7ks/wvyTit893N4e
+        KP705Z6647fxW0EPDzX1r/yb4oiih6Ps1AvrlKoEHNPLkS+ml28aQmJGvhBc7wziLO38JKhVr7p+
+        qF/c7ojdi85baRYCM/vRv5jAITumohv/FQagqmiOo2vhCf1FZ888Pn1TS0suq9vFZ808YneyrfZs
+        BcHPxHVdbTQ6udosdUcOQq5HB+tqf0RQYOEi9KroYM2AFov6Dr+GLEAbIcOi05OcyMPI9UzIx7Fd
+        vzuV6/sdm7Fg9LtgVdVKegpC/WQE5np2ImQCNmI4emp7GG9T0H+zZDDzbW+AwMIC8xs7EQaB/gxr
+        1I3bKQKLPrh37kRMCOwXTqBahoFRb4XfyiPiRyRlIqWs3eAMfqUb9Q3jOpT4eiFjD8afpu5XcXga
+        sLNvded3jO8GHqQYNBKoZZwYDUtqcN46TQMqQFOj0WtwEj9Jw+CFBmuQFz1JYwQdNKjRMBpU2E7T
+        gNLE1GgEDWKT0zQ4sBTN1uQJxv/V8eAOBSJdwpLmSKOpgZDx8+DqKxUWPS8MZblBluuklTCKO+iH
+        Hx9+Ahh3OVOWSwAA
+    headers:
+      cache-control:
+      - private, no-cache, no-store, must-revalidate
+      content-encoding:
+      - gzip
+      content-security-policy:
+      - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self''
+        https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src
+        ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Tue, 25 Apr 2023 09:33:24 GMT
+      expect-ct:
+      - max-age=0
+      expires:
+      - '0'
+      pragma:
+      - no-cache
+      ratelimit-limit:
+      - '25'
+      ratelimit-remaining:
+      - '17'
+      ratelimit-reset:
+      - '50'
+      referrer-policy:
+      - no-referrer
+      server:
+      - istio-envoy
+      strict-transport-security:
+      - max-age=63244800; includeSubDomains
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding
+      x-content-type-options:
+      - nosniff
+      x-dns-prefetch-control:
+      - 'off'
+      x-download-options:
+      - noopen
+      x-envoy-upstream-service-time:
+      - '6'
+      x-frame-options:
+      - SAMEORIGIN
+      x-permitted-cross-domain-policies:
+      - none
+      x-request-id:
+      - f1471461-8ac2-470d-9104-76e68803927a
+      x-xss-protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '[{"idType": "TICKER", "idValue": "IBM"}]'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '40'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.28.2
+    method: POST
+    uri: https://api.openfigi.com/v3/mapping
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA92c3XOaQBDA/xXG56bDhwr2zQME+QoCCtrpg2Np6yTGVMlMM53+7wXTpqm6SMa1
+        0723KHDr/u729vaDvP/e+jgv5q1377+3Pi0/L1vvWoxZoigyLwjsbutN626+ystvh0HiCWwcDwMz
+        jgW/r9vVX4J+HYXlTcVycZNvqtuYX37Mvy2+6OuP1XPjuPy8WK/u19tlkQ+G1vBQxDZfPGyWxWPy
+        eF89oq9Xq/WdEBfrxU15dTXf3ORFnC+KdSXB/PpQ3lo99WW+yfXb+Xb7clQp7sRKr7c3qnw47O/L
+        Rr5dbJb3xXJ99+v3/3hzhMVERGDR54JFyFQEFjoXLEYSho0EfLCwMGwk5IJFpGoILBgfLFKMdZFw
+        wSLWOggsfD5YRG0EFhkXLFIHg4XBBYssxLCRAR8sJgh+ZDLlgsW0JyGwcPhg4SOcOycuByxSWTPk
+        81mEJswilVVbJMFixvze+SzitIbFLxH/O4tB7IperR+50k3D7Ee1JHaXj5N4FrBP4veor2XA0u5s
+        f7yKgZHvpM83j0KUL/JS7VeTkNTaVdGIBOxPKZGQO+eTgDNaZEi4suJgROsWbB/PIv73naL6oQmC
+        N7VgC6HEwg0RsnsWHIlQYuEpCN7Ugk/flFj4Osa6gPdOSiyCjoLAAs7iUGIxkjD8CJzppMQiijH2
+        iyEXLGIVY13Y9FkELNUYQnbPvAZZPIsgwIK1EbJ7GbwuSLHA2C8yuJJKisUMIbuXwWdwQiyygYSQ
+        9c3gjBYlFpaIcO7M4KwvKRYuxt7pccHCtjBsxOKDRYbhR7g4X2SuheFH4DiVFIsAIU7N4K41Siw8
+        jCqRKXHBwvcwbATuyKHEIpAR4tQMrphRYhHqGHHquIZFFqQqBRa27qoINhLOYBalCFGjwCKUU4bg
+        Rzy4y7USISsEWIwGyQxjXSRwbFaKmPoUbCSaBl0fwacmcC6nEiET2DslJXLs7ks/wvyTit893N4e
+        KP705Z6647fxW0EPDzX1r/yb4oiih6Ps1AvrlKoEHNPLkS+ml28aQmJGvhBc7wziLO38JKhVr7p+
+        qF/c7ojdi85baRYCM/vRv5jAITumohv/FQagqmiOo2vhCf1FZ888Pn1TS0suq9vFZ808YneyrfZs
+        BcHPxHVdbTQ6udosdUcOQq5HB+tqf0RQYOEi9KroYM2AFov6Dr+GLEAbIcOi05OcyMPI9UzIx7Fd
+        vzuV6/sdm7Fg9LtgVdVKegpC/WQE5np2ImQCNmI4emp7GG9T0H+zZDDzbW+AwMIC8xs7EQaB/gxr
+        1I3bKQKLPrh37kRMCOwXTqBahoFRb4XfyiPiRyRlIqWs3eAMfqUb9Q3jOpT4eiFjD8afpu5XcXga
+        sLNvded3jO8GHqQYNBKoZZwYDUtqcN46TQMqQFOj0WtwEj9Jw+CFBmuQFz1JYwQdNKjRMBpU2E7T
+        gNLE1GgEDWKT0zQ4sBTN1uQJxv/V8eAOBSJdwpLmSKOpgZDx8+DqKxUWPS8MZblBluuklTCKO+iH
+        Hx9+Ahh3OVOWSwAA
+    headers:
+      cache-control:
+      - private, no-cache, no-store, must-revalidate
+      content-encoding:
+      - gzip
+      content-security-policy:
+      - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self''
+        https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src
+        ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Tue, 25 Apr 2023 09:33:24 GMT
+      expect-ct:
+      - max-age=0
+      expires:
+      - '0'
+      pragma:
+      - no-cache
+      ratelimit-limit:
+      - '25'
+      ratelimit-remaining:
+      - '16'
+      ratelimit-reset:
+      - '49'
+      referrer-policy:
+      - no-referrer
+      server:
+      - istio-envoy
+      strict-transport-security:
+      - max-age=63244800; includeSubDomains
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding
+      x-content-type-options:
+      - nosniff
+      x-dns-prefetch-control:
+      - 'off'
+      x-download-options:
+      - noopen
+      x-envoy-upstream-service-time:
+      - '4'
+      x-frame-options:
+      - SAMEORIGIN
+      x-permitted-cross-domain-policies:
+      - none
+      x-request-id:
+      - 55bae7a0-6406-479b-8e86-bc374d72afd3
+      x-xss-protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '[{"idType": "TICKER", "idValue": "IBM"}]'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '40'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.28.2
+    method: POST
+    uri: https://api.openfigi.com/v3/mapping
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA92c3XOaQBDA/xXG56bDhwr2zQME+QoCCtrpg2Np6yTGVMlMM53+7wXTpqm6SMa1
+        0723KHDr/u729vaDvP/e+jgv5q1377+3Pi0/L1vvWoxZoigyLwjsbutN626+ystvh0HiCWwcDwMz
+        jgW/r9vVX4J+HYXlTcVycZNvqtuYX37Mvy2+6OuP1XPjuPy8WK/u19tlkQ+G1vBQxDZfPGyWxWPy
+        eF89oq9Xq/WdEBfrxU15dTXf3ORFnC+KdSXB/PpQ3lo99WW+yfXb+Xb7clQp7sRKr7c3qnw47O/L
+        Rr5dbJb3xXJ99+v3/3hzhMVERGDR54JFyFQEFjoXLEYSho0EfLCwMGwk5IJFpGoILBgfLFKMdZFw
+        wSLWOggsfD5YRG0EFhkXLFIHg4XBBYssxLCRAR8sJgh+ZDLlgsW0JyGwcPhg4SOcOycuByxSWTPk
+        81mEJswilVVbJMFixvze+SzitIbFLxH/O4tB7IperR+50k3D7Ee1JHaXj5N4FrBP4veor2XA0u5s
+        f7yKgZHvpM83j0KUL/JS7VeTkNTaVdGIBOxPKZGQO+eTgDNaZEi4suJgROsWbB/PIv73naL6oQmC
+        N7VgC6HEwg0RsnsWHIlQYuEpCN7Ugk/flFj4Osa6gPdOSiyCjoLAAs7iUGIxkjD8CJzppMQiijH2
+        iyEXLGIVY13Y9FkELNUYQnbPvAZZPIsgwIK1EbJ7GbwuSLHA2C8yuJJKisUMIbuXwWdwQiyygYSQ
+        9c3gjBYlFpaIcO7M4KwvKRYuxt7pccHCtjBsxOKDRYbhR7g4X2SuheFH4DiVFIsAIU7N4K41Siw8
+        jCqRKXHBwvcwbATuyKHEIpAR4tQMrphRYhHqGHHquIZFFqQqBRa27qoINhLOYBalCFGjwCKUU4bg
+        Rzy4y7USISsEWIwGyQxjXSRwbFaKmPoUbCSaBl0fwacmcC6nEiET2DslJXLs7ks/wvyTit893N4e
+        KP705Z6647fxW0EPDzX1r/yb4oiih6Ps1AvrlKoEHNPLkS+ml28aQmJGvhBc7wziLO38JKhVr7p+
+        qF/c7ojdi85baRYCM/vRv5jAITumohv/FQagqmiOo2vhCf1FZ888Pn1TS0suq9vFZ808YneyrfZs
+        BcHPxHVdbTQ6udosdUcOQq5HB+tqf0RQYOEi9KroYM2AFov6Dr+GLEAbIcOi05OcyMPI9UzIx7Fd
+        vzuV6/sdm7Fg9LtgVdVKegpC/WQE5np2ImQCNmI4emp7GG9T0H+zZDDzbW+AwMIC8xs7EQaB/gxr
+        1I3bKQKLPrh37kRMCOwXTqBahoFRb4XfyiPiRyRlIqWs3eAMfqUb9Q3jOpT4eiFjD8afpu5XcXga
+        sLNvded3jO8GHqQYNBKoZZwYDUtqcN46TQMqQFOj0WtwEj9Jw+CFBmuQFz1JYwQdNKjRMBpU2E7T
+        gNLE1GgEDWKT0zQ4sBTN1uQJxv/V8eAOBSJdwpLmSKOpgZDx8+DqKxUWPS8MZblBluuklTCKO+iH
+        Hx9+Ahh3OVOWSwAA
+    headers:
+      cache-control:
+      - private, no-cache, no-store, must-revalidate
+      content-encoding:
+      - gzip
+      content-security-policy:
+      - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self''
+        https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src
+        ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Tue, 25 Apr 2023 09:33:25 GMT
+      expect-ct:
+      - max-age=0
+      expires:
+      - '0'
+      pragma:
+      - no-cache
+      ratelimit-limit:
+      - '25'
+      ratelimit-remaining:
+      - '15'
+      ratelimit-reset:
+      - '49'
+      referrer-policy:
+      - no-referrer
+      server:
+      - istio-envoy
+      strict-transport-security:
+      - max-age=63244800; includeSubDomains
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding
+      x-content-type-options:
+      - nosniff
+      x-dns-prefetch-control:
+      - 'off'
+      x-download-options:
+      - noopen
+      x-envoy-upstream-service-time:
+      - '8'
+      x-frame-options:
+      - SAMEORIGIN
+      x-permitted-cross-domain-policies:
+      - none
+      x-request-id:
+      - 0e55da0d-bfbe-4a14-a08c-ecfbd1b7f3ba
+      x-xss-protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '[{"idType": "TICKER", "idValue": "IBM"}]'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '40'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.28.2
+    method: POST
+    uri: https://api.openfigi.com/v3/mapping
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA92c3XOaQBDA/xXG56bDhwr2zQME+QoCCtrpg2Np6yTGVMlMM53+7wXTpqm6SMa1
+        0723KHDr/u729vaDvP/e+jgv5q1377+3Pi0/L1vvWoxZoigyLwjsbutN626+ystvh0HiCWwcDwMz
+        jgW/r9vVX4J+HYXlTcVycZNvqtuYX37Mvy2+6OuP1XPjuPy8WK/u19tlkQ+G1vBQxDZfPGyWxWPy
+        eF89oq9Xq/WdEBfrxU15dTXf3ORFnC+KdSXB/PpQ3lo99WW+yfXb+Xb7clQp7sRKr7c3qnw47O/L
+        Rr5dbJb3xXJ99+v3/3hzhMVERGDR54JFyFQEFjoXLEYSho0EfLCwMGwk5IJFpGoILBgfLFKMdZFw
+        wSLWOggsfD5YRG0EFhkXLFIHg4XBBYssxLCRAR8sJgh+ZDLlgsW0JyGwcPhg4SOcOycuByxSWTPk
+        81mEJswilVVbJMFixvze+SzitIbFLxH/O4tB7IperR+50k3D7Ee1JHaXj5N4FrBP4veor2XA0u5s
+        f7yKgZHvpM83j0KUL/JS7VeTkNTaVdGIBOxPKZGQO+eTgDNaZEi4suJgROsWbB/PIv73naL6oQmC
+        N7VgC6HEwg0RsnsWHIlQYuEpCN7Ugk/flFj4Osa6gPdOSiyCjoLAAs7iUGIxkjD8CJzppMQiijH2
+        iyEXLGIVY13Y9FkELNUYQnbPvAZZPIsgwIK1EbJ7GbwuSLHA2C8yuJJKisUMIbuXwWdwQiyygYSQ
+        9c3gjBYlFpaIcO7M4KwvKRYuxt7pccHCtjBsxOKDRYbhR7g4X2SuheFH4DiVFIsAIU7N4K41Siw8
+        jCqRKXHBwvcwbATuyKHEIpAR4tQMrphRYhHqGHHquIZFFqQqBRa27qoINhLOYBalCFGjwCKUU4bg
+        Rzy4y7USISsEWIwGyQxjXSRwbFaKmPoUbCSaBl0fwacmcC6nEiET2DslJXLs7ks/wvyTit893N4e
+        KP705Z6647fxW0EPDzX1r/yb4oiih6Ps1AvrlKoEHNPLkS+ml28aQmJGvhBc7wziLO38JKhVr7p+
+        qF/c7ojdi85baRYCM/vRv5jAITumohv/FQagqmiOo2vhCf1FZ888Pn1TS0suq9vFZ808YneyrfZs
+        BcHPxHVdbTQ6udosdUcOQq5HB+tqf0RQYOEi9KroYM2AFov6Dr+GLEAbIcOi05OcyMPI9UzIx7Fd
+        vzuV6/sdm7Fg9LtgVdVKegpC/WQE5np2ImQCNmI4emp7GG9T0H+zZDDzbW+AwMIC8xs7EQaB/gxr
+        1I3bKQKLPrh37kRMCOwXTqBahoFRb4XfyiPiRyRlIqWs3eAMfqUb9Q3jOpT4eiFjD8afpu5XcXga
+        sLNvded3jO8GHqQYNBKoZZwYDUtqcN46TQMqQFOj0WtwEj9Jw+CFBmuQFz1JYwQdNKjRMBpU2E7T
+        gNLE1GgEDWKT0zQ4sBTN1uQJxv/V8eAOBSJdwpLmSKOpgZDx8+DqKxUWPS8MZblBluuklTCKO+iH
+        Hx9+Ahh3OVOWSwAA
+    headers:
+      cache-control:
+      - private, no-cache, no-store, must-revalidate
+      content-encoding:
+      - gzip
+      content-security-policy:
+      - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self''
+        https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src
+        ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Tue, 25 Apr 2023 09:33:25 GMT
+      expect-ct:
+      - max-age=0
+      expires:
+      - '0'
+      pragma:
+      - no-cache
+      ratelimit-limit:
+      - '25'
+      ratelimit-remaining:
+      - '14'
+      ratelimit-reset:
+      - '48'
+      referrer-policy:
+      - no-referrer
+      server:
+      - istio-envoy
+      strict-transport-security:
+      - max-age=63244800; includeSubDomains
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding
+      x-content-type-options:
+      - nosniff
+      x-dns-prefetch-control:
+      - 'off'
+      x-download-options:
+      - noopen
+      x-envoy-upstream-service-time:
+      - '16'
+      x-frame-options:
+      - SAMEORIGIN
+      x-permitted-cross-domain-policies:
+      - none
+      x-request-id:
+      - ef647d6a-9b15-4b68-8709-feb4c6e758a2
+      x-xss-protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '[{"idType": "TICKER", "idValue": "IBM"}]'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '40'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.28.2
+    method: POST
+    uri: https://api.openfigi.com/v3/mapping
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA92c3XOaQBDA/xXG56bDhwr2zQME+QoCCtrpg2Np6yTGVMlMM53+7wXTpqm6SMa1
+        0723KHDr/u729vaDvP/e+jgv5q1377+3Pi0/L1vvWoxZoigyLwjsbutN626+ystvh0HiCWwcDwMz
+        jgW/r9vVX4J+HYXlTcVycZNvqtuYX37Mvy2+6OuP1XPjuPy8WK/u19tlkQ+G1vBQxDZfPGyWxWPy
+        eF89oq9Xq/WdEBfrxU15dTXf3ORFnC+KdSXB/PpQ3lo99WW+yfXb+Xb7clQp7sRKr7c3qnw47O/L
+        Rr5dbJb3xXJ99+v3/3hzhMVERGDR54JFyFQEFjoXLEYSho0EfLCwMGwk5IJFpGoILBgfLFKMdZFw
+        wSLWOggsfD5YRG0EFhkXLFIHg4XBBYssxLCRAR8sJgh+ZDLlgsW0JyGwcPhg4SOcOycuByxSWTPk
+        81mEJswilVVbJMFixvze+SzitIbFLxH/O4tB7IperR+50k3D7Ee1JHaXj5N4FrBP4veor2XA0u5s
+        f7yKgZHvpM83j0KUL/JS7VeTkNTaVdGIBOxPKZGQO+eTgDNaZEi4suJgROsWbB/PIv73naL6oQmC
+        N7VgC6HEwg0RsnsWHIlQYuEpCN7Ugk/flFj4Osa6gPdOSiyCjoLAAs7iUGIxkjD8CJzppMQiijH2
+        iyEXLGIVY13Y9FkELNUYQnbPvAZZPIsgwIK1EbJ7GbwuSLHA2C8yuJJKisUMIbuXwWdwQiyygYSQ
+        9c3gjBYlFpaIcO7M4KwvKRYuxt7pccHCtjBsxOKDRYbhR7g4X2SuheFH4DiVFIsAIU7N4K41Siw8
+        jCqRKXHBwvcwbATuyKHEIpAR4tQMrphRYhHqGHHquIZFFqQqBRa27qoINhLOYBalCFGjwCKUU4bg
+        Rzy4y7USISsEWIwGyQxjXSRwbFaKmPoUbCSaBl0fwacmcC6nEiET2DslJXLs7ks/wvyTit893N4e
+        KP705Z6647fxW0EPDzX1r/yb4oiih6Ps1AvrlKoEHNPLkS+ml28aQmJGvhBc7wziLO38JKhVr7p+
+        qF/c7ojdi85baRYCM/vRv5jAITumohv/FQagqmiOo2vhCf1FZ888Pn1TS0suq9vFZ808YneyrfZs
+        BcHPxHVdbTQ6udosdUcOQq5HB+tqf0RQYOEi9KroYM2AFov6Dr+GLEAbIcOi05OcyMPI9UzIx7Fd
+        vzuV6/sdm7Fg9LtgVdVKegpC/WQE5np2ImQCNmI4emp7GG9T0H+zZDDzbW+AwMIC8xs7EQaB/gxr
+        1I3bKQKLPrh37kRMCOwXTqBahoFRb4XfyiPiRyRlIqWs3eAMfqUb9Q3jOpT4eiFjD8afpu5XcXga
+        sLNvded3jO8GHqQYNBKoZZwYDUtqcN46TQMqQFOj0WtwEj9Jw+CFBmuQFz1JYwQdNKjRMBpU2E7T
+        gNLE1GgEDWKT0zQ4sBTN1uQJxv/V8eAOBSJdwpLmSKOpgZDx8+DqKxUWPS8MZblBluuklTCKO+iH
+        Hx9+Ahh3OVOWSwAA
+    headers:
+      cache-control:
+      - private, no-cache, no-store, must-revalidate
+      content-encoding:
+      - gzip
+      content-security-policy:
+      - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self''
+        https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src
+        ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Tue, 25 Apr 2023 09:33:26 GMT
+      expect-ct:
+      - max-age=0
+      expires:
+      - '0'
+      pragma:
+      - no-cache
+      ratelimit-limit:
+      - '25'
+      ratelimit-remaining:
+      - '13'
+      ratelimit-reset:
+      - '48'
+      referrer-policy:
+      - no-referrer
+      server:
+      - istio-envoy
+      strict-transport-security:
+      - max-age=63244800; includeSubDomains
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding
+      x-content-type-options:
+      - nosniff
+      x-dns-prefetch-control:
+      - 'off'
+      x-download-options:
+      - noopen
+      x-envoy-upstream-service-time:
+      - '24'
+      x-frame-options:
+      - SAMEORIGIN
+      x-permitted-cross-domain-policies:
+      - none
+      x-request-id:
+      - bb2c6e78-ecb1-460b-b487-3aae7c952a24
+      x-xss-protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '[{"idType": "TICKER", "idValue": "IBM"}]'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '40'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.28.2
+    method: POST
+    uri: https://api.openfigi.com/v3/mapping
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA92c3XOaQBDA/xXG56bDhwr2zQME+QoCCtrpg2Np6yTGVMlMM53+7wXTpqm6SMa1
+        0723KHDr/u729vaDvP/e+jgv5q1377+3Pi0/L1vvWoxZoigyLwjsbutN626+ystvh0HiCWwcDwMz
+        jgW/r9vVX4J+HYXlTcVycZNvqtuYX37Mvy2+6OuP1XPjuPy8WK/u19tlkQ+G1vBQxDZfPGyWxWPy
+        eF89oq9Xq/WdEBfrxU15dTXf3ORFnC+KdSXB/PpQ3lo99WW+yfXb+Xb7clQp7sRKr7c3qnw47O/L
+        Rr5dbJb3xXJ99+v3/3hzhMVERGDR54JFyFQEFjoXLEYSho0EfLCwMGwk5IJFpGoILBgfLFKMdZFw
+        wSLWOggsfD5YRG0EFhkXLFIHg4XBBYssxLCRAR8sJgh+ZDLlgsW0JyGwcPhg4SOcOycuByxSWTPk
+        81mEJswilVVbJMFixvze+SzitIbFLxH/O4tB7IperR+50k3D7Ee1JHaXj5N4FrBP4veor2XA0u5s
+        f7yKgZHvpM83j0KUL/JS7VeTkNTaVdGIBOxPKZGQO+eTgDNaZEi4suJgROsWbB/PIv73naL6oQmC
+        N7VgC6HEwg0RsnsWHIlQYuEpCN7Ugk/flFj4Osa6gPdOSiyCjoLAAs7iUGIxkjD8CJzppMQiijH2
+        iyEXLGIVY13Y9FkELNUYQnbPvAZZPIsgwIK1EbJ7GbwuSLHA2C8yuJJKisUMIbuXwWdwQiyygYSQ
+        9c3gjBYlFpaIcO7M4KwvKRYuxt7pccHCtjBsxOKDRYbhR7g4X2SuheFH4DiVFIsAIU7N4K41Siw8
+        jCqRKXHBwvcwbATuyKHEIpAR4tQMrphRYhHqGHHquIZFFqQqBRa27qoINhLOYBalCFGjwCKUU4bg
+        Rzy4y7USISsEWIwGyQxjXSRwbFaKmPoUbCSaBl0fwacmcC6nEiET2DslJXLs7ks/wvyTit893N4e
+        KP705Z6647fxW0EPDzX1r/yb4oiih6Ps1AvrlKoEHNPLkS+ml28aQmJGvhBc7wziLO38JKhVr7p+
+        qF/c7ojdi85baRYCM/vRv5jAITumohv/FQagqmiOo2vhCf1FZ888Pn1TS0suq9vFZ808YneyrfZs
+        BcHPxHVdbTQ6udosdUcOQq5HB+tqf0RQYOEi9KroYM2AFov6Dr+GLEAbIcOi05OcyMPI9UzIx7Fd
+        vzuV6/sdm7Fg9LtgVdVKegpC/WQE5np2ImQCNmI4emp7GG9T0H+zZDDzbW+AwMIC8xs7EQaB/gxr
+        1I3bKQKLPrh37kRMCOwXTqBahoFRb4XfyiPiRyRlIqWs3eAMfqUb9Q3jOpT4eiFjD8afpu5XcXga
+        sLNvded3jO8GHqQYNBKoZZwYDUtqcN46TQMqQFOj0WtwEj9Jw+CFBmuQFz1JYwQdNKjRMBpU2E7T
+        gNLE1GgEDWKT0zQ4sBTN1uQJxv/V8eAOBSJdwpLmSKOpgZDx8+DqKxUWPS8MZblBluuklTCKO+iH
+        Hx9+Ahh3OVOWSwAA
+    headers:
+      cache-control:
+      - private, no-cache, no-store, must-revalidate
+      content-encoding:
+      - gzip
+      content-security-policy:
+      - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self''
+        https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src
+        ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Tue, 25 Apr 2023 09:33:26 GMT
+      expect-ct:
+      - max-age=0
+      expires:
+      - '0'
+      pragma:
+      - no-cache
+      ratelimit-limit:
+      - '25'
+      ratelimit-remaining:
+      - '12'
+      ratelimit-reset:
+      - '47'
+      referrer-policy:
+      - no-referrer
+      server:
+      - istio-envoy
+      strict-transport-security:
+      - max-age=63244800; includeSubDomains
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding
+      x-content-type-options:
+      - nosniff
+      x-dns-prefetch-control:
+      - 'off'
+      x-download-options:
+      - noopen
+      x-envoy-upstream-service-time:
+      - '4'
+      x-frame-options:
+      - SAMEORIGIN
+      x-permitted-cross-domain-policies:
+      - none
+      x-request-id:
+      - 8505fecd-f0ce-4a74-8caa-c706c646daad
+      x-xss-protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '[{"idType": "TICKER", "idValue": "IBM"}]'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '40'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.28.2
+    method: POST
+    uri: https://api.openfigi.com/v3/mapping
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA92c3XOaQBDA/xXG56bDhwr2zQME+QoCCtrpg2Np6yTGVMlMM53+7wXTpqm6SMa1
+        0723KHDr/u729vaDvP/e+jgv5q1377+3Pi0/L1vvWoxZoigyLwjsbutN626+ystvh0HiCWwcDwMz
+        jgW/r9vVX4J+HYXlTcVycZNvqtuYX37Mvy2+6OuP1XPjuPy8WK/u19tlkQ+G1vBQxDZfPGyWxWPy
+        eF89oq9Xq/WdEBfrxU15dTXf3ORFnC+KdSXB/PpQ3lo99WW+yfXb+Xb7clQp7sRKr7c3qnw47O/L
+        Rr5dbJb3xXJ99+v3/3hzhMVERGDR54JFyFQEFjoXLEYSho0EfLCwMGwk5IJFpGoILBgfLFKMdZFw
+        wSLWOggsfD5YRG0EFhkXLFIHg4XBBYssxLCRAR8sJgh+ZDLlgsW0JyGwcPhg4SOcOycuByxSWTPk
+        81mEJswilVVbJMFixvze+SzitIbFLxH/O4tB7IperR+50k3D7Ee1JHaXj5N4FrBP4veor2XA0u5s
+        f7yKgZHvpM83j0KUL/JS7VeTkNTaVdGIBOxPKZGQO+eTgDNaZEi4suJgROsWbB/PIv73naL6oQmC
+        N7VgC6HEwg0RsnsWHIlQYuEpCN7Ugk/flFj4Osa6gPdOSiyCjoLAAs7iUGIxkjD8CJzppMQiijH2
+        iyEXLGIVY13Y9FkELNUYQnbPvAZZPIsgwIK1EbJ7GbwuSLHA2C8yuJJKisUMIbuXwWdwQiyygYSQ
+        9c3gjBYlFpaIcO7M4KwvKRYuxt7pccHCtjBsxOKDRYbhR7g4X2SuheFH4DiVFIsAIU7N4K41Siw8
+        jCqRKXHBwvcwbATuyKHEIpAR4tQMrphRYhHqGHHquIZFFqQqBRa27qoINhLOYBalCFGjwCKUU4bg
+        Rzy4y7USISsEWIwGyQxjXSRwbFaKmPoUbCSaBl0fwacmcC6nEiET2DslJXLs7ks/wvyTit893N4e
+        KP705Z6647fxW0EPDzX1r/yb4oiih6Ps1AvrlKoEHNPLkS+ml28aQmJGvhBc7wziLO38JKhVr7p+
+        qF/c7ojdi85baRYCM/vRv5jAITumohv/FQagqmiOo2vhCf1FZ888Pn1TS0suq9vFZ808YneyrfZs
+        BcHPxHVdbTQ6udosdUcOQq5HB+tqf0RQYOEi9KroYM2AFov6Dr+GLEAbIcOi05OcyMPI9UzIx7Fd
+        vzuV6/sdm7Fg9LtgVdVKegpC/WQE5np2ImQCNmI4emp7GG9T0H+zZDDzbW+AwMIC8xs7EQaB/gxr
+        1I3bKQKLPrh37kRMCOwXTqBahoFRb4XfyiPiRyRlIqWs3eAMfqUb9Q3jOpT4eiFjD8afpu5XcXga
+        sLNvded3jO8GHqQYNBKoZZwYDUtqcN46TQMqQFOj0WtwEj9Jw+CFBmuQFz1JYwQdNKjRMBpU2E7T
+        gNLE1GgEDWKT0zQ4sBTN1uQJxv/V8eAOBSJdwpLmSKOpgZDx8+DqKxUWPS8MZblBluuklTCKO+iH
+        Hx9+Ahh3OVOWSwAA
+    headers:
+      cache-control:
+      - private, no-cache, no-store, must-revalidate
+      content-encoding:
+      - gzip
+      content-security-policy:
+      - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self''
+        https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src
+        ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Tue, 25 Apr 2023 09:33:27 GMT
+      expect-ct:
+      - max-age=0
+      expires:
+      - '0'
+      pragma:
+      - no-cache
+      ratelimit-limit:
+      - '25'
+      ratelimit-remaining:
+      - '11'
+      ratelimit-reset:
+      - '47'
+      referrer-policy:
+      - no-referrer
+      server:
+      - istio-envoy
+      strict-transport-security:
+      - max-age=63244800; includeSubDomains
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding
+      x-content-type-options:
+      - nosniff
+      x-dns-prefetch-control:
+      - 'off'
+      x-download-options:
+      - noopen
+      x-envoy-upstream-service-time:
+      - '5'
+      x-frame-options:
+      - SAMEORIGIN
+      x-permitted-cross-domain-policies:
+      - none
+      x-request-id:
+      - 4ef86aab-e1e0-4452-97f0-e39fa22f36a3
+      x-xss-protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '[{"idType": "TICKER", "idValue": "IBM"}]'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '40'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.28.2
+    method: POST
+    uri: https://api.openfigi.com/v3/mapping
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA92c3XOaQBDA/xXG56bDhwr2zQME+QoCCtrpg2Np6yTGVMlMM53+7wXTpqm6SMa1
+        0723KHDr/u729vaDvP/e+jgv5q1377+3Pi0/L1vvWoxZoigyLwjsbutN626+ystvh0HiCWwcDwMz
+        jgW/r9vVX4J+HYXlTcVycZNvqtuYX37Mvy2+6OuP1XPjuPy8WK/u19tlkQ+G1vBQxDZfPGyWxWPy
+        eF89oq9Xq/WdEBfrxU15dTXf3ORFnC+KdSXB/PpQ3lo99WW+yfXb+Xb7clQp7sRKr7c3qnw47O/L
+        Rr5dbJb3xXJ99+v3/3hzhMVERGDR54JFyFQEFjoXLEYSho0EfLCwMGwk5IJFpGoILBgfLFKMdZFw
+        wSLWOggsfD5YRG0EFhkXLFIHg4XBBYssxLCRAR8sJgh+ZDLlgsW0JyGwcPhg4SOcOycuByxSWTPk
+        81mEJswilVVbJMFixvze+SzitIbFLxH/O4tB7IperR+50k3D7Ee1JHaXj5N4FrBP4veor2XA0u5s
+        f7yKgZHvpM83j0KUL/JS7VeTkNTaVdGIBOxPKZGQO+eTgDNaZEi4suJgROsWbB/PIv73naL6oQmC
+        N7VgC6HEwg0RsnsWHIlQYuEpCN7Ugk/flFj4Osa6gPdOSiyCjoLAAs7iUGIxkjD8CJzppMQiijH2
+        iyEXLGIVY13Y9FkELNUYQnbPvAZZPIsgwIK1EbJ7GbwuSLHA2C8yuJJKisUMIbuXwWdwQiyygYSQ
+        9c3gjBYlFpaIcO7M4KwvKRYuxt7pccHCtjBsxOKDRYbhR7g4X2SuheFH4DiVFIsAIU7N4K41Siw8
+        jCqRKXHBwvcwbATuyKHEIpAR4tQMrphRYhHqGHHquIZFFqQqBRa27qoINhLOYBalCFGjwCKUU4bg
+        Rzy4y7USISsEWIwGyQxjXSRwbFaKmPoUbCSaBl0fwacmcC6nEiET2DslJXLs7ks/wvyTit893N4e
+        KP705Z6647fxW0EPDzX1r/yb4oiih6Ps1AvrlKoEHNPLkS+ml28aQmJGvhBc7wziLO38JKhVr7p+
+        qF/c7ojdi85baRYCM/vRv5jAITumohv/FQagqmiOo2vhCf1FZ888Pn1TS0suq9vFZ808YneyrfZs
+        BcHPxHVdbTQ6udosdUcOQq5HB+tqf0RQYOEi9KroYM2AFov6Dr+GLEAbIcOi05OcyMPI9UzIx7Fd
+        vzuV6/sdm7Fg9LtgVdVKegpC/WQE5np2ImQCNmI4emp7GG9T0H+zZDDzbW+AwMIC8xs7EQaB/gxr
+        1I3bKQKLPrh37kRMCOwXTqBahoFRb4XfyiPiRyRlIqWs3eAMfqUb9Q3jOpT4eiFjD8afpu5XcXga
+        sLNvded3jO8GHqQYNBKoZZwYDUtqcN46TQMqQFOj0WtwEj9Jw+CFBmuQFz1JYwQdNKjRMBpU2E7T
+        gNLE1GgEDWKT0zQ4sBTN1uQJxv/V8eAOBSJdwpLmSKOpgZDx8+DqKxUWPS8MZblBluuklTCKO+iH
+        Hx9+Ahh3OVOWSwAA
+    headers:
+      cache-control:
+      - private, no-cache, no-store, must-revalidate
+      content-encoding:
+      - gzip
+      content-security-policy:
+      - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self''
+        https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src
+        ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Tue, 25 Apr 2023 09:33:27 GMT
+      expect-ct:
+      - max-age=0
+      expires:
+      - '0'
+      pragma:
+      - no-cache
+      ratelimit-limit:
+      - '25'
+      ratelimit-remaining:
+      - '10'
+      ratelimit-reset:
+      - '47'
+      referrer-policy:
+      - no-referrer
+      server:
+      - istio-envoy
+      strict-transport-security:
+      - max-age=63244800; includeSubDomains
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding
+      x-content-type-options:
+      - nosniff
+      x-dns-prefetch-control:
+      - 'off'
+      x-download-options:
+      - noopen
+      x-envoy-upstream-service-time:
+      - '4'
+      x-frame-options:
+      - SAMEORIGIN
+      x-permitted-cross-domain-policies:
+      - none
+      x-request-id:
+      - f5b56ce6-e98b-411b-82dc-08b035437d8a
+      x-xss-protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '[{"idType": "TICKER", "idValue": "IBM"}]'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '40'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.28.2
+    method: POST
+    uri: https://api.openfigi.com/v3/mapping
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA92c3XOaQBDA/xXG56bDhwr2zQME+QoCCtrpg2Np6yTGVMlMM53+7wXTpqm6SMa1
+        0723KHDr/u729vaDvP/e+jgv5q1377+3Pi0/L1vvWoxZoigyLwjsbutN626+ystvh0HiCWwcDwMz
+        jgW/r9vVX4J+HYXlTcVycZNvqtuYX37Mvy2+6OuP1XPjuPy8WK/u19tlkQ+G1vBQxDZfPGyWxWPy
+        eF89oq9Xq/WdEBfrxU15dTXf3ORFnC+KdSXB/PpQ3lo99WW+yfXb+Xb7clQp7sRKr7c3qnw47O/L
+        Rr5dbJb3xXJ99+v3/3hzhMVERGDR54JFyFQEFjoXLEYSho0EfLCwMGwk5IJFpGoILBgfLFKMdZFw
+        wSLWOggsfD5YRG0EFhkXLFIHg4XBBYssxLCRAR8sJgh+ZDLlgsW0JyGwcPhg4SOcOycuByxSWTPk
+        81mEJswilVVbJMFixvze+SzitIbFLxH/O4tB7IperR+50k3D7Ee1JHaXj5N4FrBP4veor2XA0u5s
+        f7yKgZHvpM83j0KUL/JS7VeTkNTaVdGIBOxPKZGQO+eTgDNaZEi4suJgROsWbB/PIv73naL6oQmC
+        N7VgC6HEwg0RsnsWHIlQYuEpCN7Ugk/flFj4Osa6gPdOSiyCjoLAAs7iUGIxkjD8CJzppMQiijH2
+        iyEXLGIVY13Y9FkELNUYQnbPvAZZPIsgwIK1EbJ7GbwuSLHA2C8yuJJKisUMIbuXwWdwQiyygYSQ
+        9c3gjBYlFpaIcO7M4KwvKRYuxt7pccHCtjBsxOKDRYbhR7g4X2SuheFH4DiVFIsAIU7N4K41Siw8
+        jCqRKXHBwvcwbATuyKHEIpAR4tQMrphRYhHqGHHquIZFFqQqBRa27qoINhLOYBalCFGjwCKUU4bg
+        Rzy4y7USISsEWIwGyQxjXSRwbFaKmPoUbCSaBl0fwacmcC6nEiET2DslJXLs7ks/wvyTit893N4e
+        KP705Z6647fxW0EPDzX1r/yb4oiih6Ps1AvrlKoEHNPLkS+ml28aQmJGvhBc7wziLO38JKhVr7p+
+        qF/c7ojdi85baRYCM/vRv5jAITumohv/FQagqmiOo2vhCf1FZ888Pn1TS0suq9vFZ808YneyrfZs
+        BcHPxHVdbTQ6udosdUcOQq5HB+tqf0RQYOEi9KroYM2AFov6Dr+GLEAbIcOi05OcyMPI9UzIx7Fd
+        vzuV6/sdm7Fg9LtgVdVKegpC/WQE5np2ImQCNmI4emp7GG9T0H+zZDDzbW+AwMIC8xs7EQaB/gxr
+        1I3bKQKLPrh37kRMCOwXTqBahoFRb4XfyiPiRyRlIqWs3eAMfqUb9Q3jOpT4eiFjD8afpu5XcXga
+        sLNvded3jO8GHqQYNBKoZZwYDUtqcN46TQMqQFOj0WtwEj9Jw+CFBmuQFz1JYwQdNKjRMBpU2E7T
+        gNLE1GgEDWKT0zQ4sBTN1uQJxv/V8eAOBSJdwpLmSKOpgZDx8+DqKxUWPS8MZblBluuklTCKO+iH
+        Hx9+Ahh3OVOWSwAA
+    headers:
+      cache-control:
+      - private, no-cache, no-store, must-revalidate
+      content-encoding:
+      - gzip
+      content-security-policy:
+      - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self''
+        https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src
+        ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Tue, 25 Apr 2023 09:33:27 GMT
+      expect-ct:
+      - max-age=0
+      expires:
+      - '0'
+      pragma:
+      - no-cache
+      ratelimit-limit:
+      - '25'
+      ratelimit-remaining:
+      - '9'
+      ratelimit-reset:
+      - '46'
+      referrer-policy:
+      - no-referrer
+      server:
+      - istio-envoy
+      strict-transport-security:
+      - max-age=63244800; includeSubDomains
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding
+      x-content-type-options:
+      - nosniff
+      x-dns-prefetch-control:
+      - 'off'
+      x-download-options:
+      - noopen
+      x-envoy-upstream-service-time:
+      - '21'
+      x-frame-options:
+      - SAMEORIGIN
+      x-permitted-cross-domain-policies:
+      - none
+      x-request-id:
+      - 906fb2cf-e425-455d-99fa-ca8c2e789c39
+      x-xss-protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '[{"idType": "TICKER", "idValue": "IBM"}]'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '40'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.28.2
+    method: POST
+    uri: https://api.openfigi.com/v3/mapping
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA92c3XOaQBDA/xXG56bDhwr2zQME+QoCCtrpg2Np6yTGVMlMM53+7wXTpqm6SMa1
+        0723KHDr/u729vaDvP/e+jgv5q1377+3Pi0/L1vvWoxZoigyLwjsbutN626+ystvh0HiCWwcDwMz
+        jgW/r9vVX4J+HYXlTcVycZNvqtuYX37Mvy2+6OuP1XPjuPy8WK/u19tlkQ+G1vBQxDZfPGyWxWPy
+        eF89oq9Xq/WdEBfrxU15dTXf3ORFnC+KdSXB/PpQ3lo99WW+yfXb+Xb7clQp7sRKr7c3qnw47O/L
+        Rr5dbJb3xXJ99+v3/3hzhMVERGDR54JFyFQEFjoXLEYSho0EfLCwMGwk5IJFpGoILBgfLFKMdZFw
+        wSLWOggsfD5YRG0EFhkXLFIHg4XBBYssxLCRAR8sJgh+ZDLlgsW0JyGwcPhg4SOcOycuByxSWTPk
+        81mEJswilVVbJMFixvze+SzitIbFLxH/O4tB7IperR+50k3D7Ee1JHaXj5N4FrBP4veor2XA0u5s
+        f7yKgZHvpM83j0KUL/JS7VeTkNTaVdGIBOxPKZGQO+eTgDNaZEi4suJgROsWbB/PIv73naL6oQmC
+        N7VgC6HEwg0RsnsWHIlQYuEpCN7Ugk/flFj4Osa6gPdOSiyCjoLAAs7iUGIxkjD8CJzppMQiijH2
+        iyEXLGIVY13Y9FkELNUYQnbPvAZZPIsgwIK1EbJ7GbwuSLHA2C8yuJJKisUMIbuXwWdwQiyygYSQ
+        9c3gjBYlFpaIcO7M4KwvKRYuxt7pccHCtjBsxOKDRYbhR7g4X2SuheFH4DiVFIsAIU7N4K41Siw8
+        jCqRKXHBwvcwbATuyKHEIpAR4tQMrphRYhHqGHHquIZFFqQqBRa27qoINhLOYBalCFGjwCKUU4bg
+        Rzy4y7USISsEWIwGyQxjXSRwbFaKmPoUbCSaBl0fwacmcC6nEiET2DslJXLs7ks/wvyTit893N4e
+        KP705Z6647fxW0EPDzX1r/yb4oiih6Ps1AvrlKoEHNPLkS+ml28aQmJGvhBc7wziLO38JKhVr7p+
+        qF/c7ojdi85baRYCM/vRv5jAITumohv/FQagqmiOo2vhCf1FZ888Pn1TS0suq9vFZ808YneyrfZs
+        BcHPxHVdbTQ6udosdUcOQq5HB+tqf0RQYOEi9KroYM2AFov6Dr+GLEAbIcOi05OcyMPI9UzIx7Fd
+        vzuV6/sdm7Fg9LtgVdVKegpC/WQE5np2ImQCNmI4emp7GG9T0H+zZDDzbW+AwMIC8xs7EQaB/gxr
+        1I3bKQKLPrh37kRMCOwXTqBahoFRb4XfyiPiRyRlIqWs3eAMfqUb9Q3jOpT4eiFjD8afpu5XcXga
+        sLNvded3jO8GHqQYNBKoZZwYDUtqcN46TQMqQFOj0WtwEj9Jw+CFBmuQFz1JYwQdNKjRMBpU2E7T
+        gNLE1GgEDWKT0zQ4sBTN1uQJxv/V8eAOBSJdwpLmSKOpgZDx8+DqKxUWPS8MZblBluuklTCKO+iH
+        Hx9+Ahh3OVOWSwAA
+    headers:
+      cache-control:
+      - private, no-cache, no-store, must-revalidate
+      content-encoding:
+      - gzip
+      content-security-policy:
+      - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self''
+        https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src
+        ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Tue, 25 Apr 2023 09:33:28 GMT
+      expect-ct:
+      - max-age=0
+      expires:
+      - '0'
+      pragma:
+      - no-cache
+      ratelimit-limit:
+      - '25'
+      ratelimit-remaining:
+      - '8'
+      ratelimit-reset:
+      - '46'
+      referrer-policy:
+      - no-referrer
+      server:
+      - istio-envoy
+      strict-transport-security:
+      - max-age=63244800; includeSubDomains
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding
+      x-content-type-options:
+      - nosniff
+      x-dns-prefetch-control:
+      - 'off'
+      x-download-options:
+      - noopen
+      x-envoy-upstream-service-time:
+      - '6'
+      x-frame-options:
+      - SAMEORIGIN
+      x-permitted-cross-domain-policies:
+      - none
+      x-request-id:
+      - 4bc00131-9dd4-40cc-b0b8-f44700d87fe6
+      x-xss-protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '[{"idType": "TICKER", "idValue": "IBM"}]'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '40'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.28.2
+    method: POST
+    uri: https://api.openfigi.com/v3/mapping
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA92c3XOaQBDA/xXG56bDhwr2zQME+QoCCtrpg2Np6yTGVMlMM53+7wXTpqm6SMa1
+        0723KHDr/u729vaDvP/e+jgv5q1377+3Pi0/L1vvWoxZoigyLwjsbutN626+ystvh0HiCWwcDwMz
+        jgW/r9vVX4J+HYXlTcVycZNvqtuYX37Mvy2+6OuP1XPjuPy8WK/u19tlkQ+G1vBQxDZfPGyWxWPy
+        eF89oq9Xq/WdEBfrxU15dTXf3ORFnC+KdSXB/PpQ3lo99WW+yfXb+Xb7clQp7sRKr7c3qnw47O/L
+        Rr5dbJb3xXJ99+v3/3hzhMVERGDR54JFyFQEFjoXLEYSho0EfLCwMGwk5IJFpGoILBgfLFKMdZFw
+        wSLWOggsfD5YRG0EFhkXLFIHg4XBBYssxLCRAR8sJgh+ZDLlgsW0JyGwcPhg4SOcOycuByxSWTPk
+        81mEJswilVVbJMFixvze+SzitIbFLxH/O4tB7IperR+50k3D7Ee1JHaXj5N4FrBP4veor2XA0u5s
+        f7yKgZHvpM83j0KUL/JS7VeTkNTaVdGIBOxPKZGQO+eTgDNaZEi4suJgROsWbB/PIv73naL6oQmC
+        N7VgC6HEwg0RsnsWHIlQYuEpCN7Ugk/flFj4Osa6gPdOSiyCjoLAAs7iUGIxkjD8CJzppMQiijH2
+        iyEXLGIVY13Y9FkELNUYQnbPvAZZPIsgwIK1EbJ7GbwuSLHA2C8yuJJKisUMIbuXwWdwQiyygYSQ
+        9c3gjBYlFpaIcO7M4KwvKRYuxt7pccHCtjBsxOKDRYbhR7g4X2SuheFH4DiVFIsAIU7N4K41Siw8
+        jCqRKXHBwvcwbATuyKHEIpAR4tQMrphRYhHqGHHquIZFFqQqBRa27qoINhLOYBalCFGjwCKUU4bg
+        Rzy4y7USISsEWIwGyQxjXSRwbFaKmPoUbCSaBl0fwacmcC6nEiET2DslJXLs7ks/wvyTit893N4e
+        KP705Z6647fxW0EPDzX1r/yb4oiih6Ps1AvrlKoEHNPLkS+ml28aQmJGvhBc7wziLO38JKhVr7p+
+        qF/c7ojdi85baRYCM/vRv5jAITumohv/FQagqmiOo2vhCf1FZ888Pn1TS0suq9vFZ808YneyrfZs
+        BcHPxHVdbTQ6udosdUcOQq5HB+tqf0RQYOEi9KroYM2AFov6Dr+GLEAbIcOi05OcyMPI9UzIx7Fd
+        vzuV6/sdm7Fg9LtgVdVKegpC/WQE5np2ImQCNmI4emp7GG9T0H+zZDDzbW+AwMIC8xs7EQaB/gxr
+        1I3bKQKLPrh37kRMCOwXTqBahoFRb4XfyiPiRyRlIqWs3eAMfqUb9Q3jOpT4eiFjD8afpu5XcXga
+        sLNvded3jO8GHqQYNBKoZZwYDUtqcN46TQMqQFOj0WtwEj9Jw+CFBmuQFz1JYwQdNKjRMBpU2E7T
+        gNLE1GgEDWKT0zQ4sBTN1uQJxv/V8eAOBSJdwpLmSKOpgZDx8+DqKxUWPS8MZblBluuklTCKO+iH
+        Hx9+Ahh3OVOWSwAA
+    headers:
+      cache-control:
+      - private, no-cache, no-store, must-revalidate
+      content-encoding:
+      - gzip
+      content-security-policy:
+      - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self''
+        https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src
+        ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Tue, 25 Apr 2023 09:33:28 GMT
+      expect-ct:
+      - max-age=0
+      expires:
+      - '0'
+      pragma:
+      - no-cache
+      ratelimit-limit:
+      - '25'
+      ratelimit-remaining:
+      - '7'
+      ratelimit-reset:
+      - '45'
+      referrer-policy:
+      - no-referrer
+      server:
+      - istio-envoy
+      strict-transport-security:
+      - max-age=63244800; includeSubDomains
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding
+      x-content-type-options:
+      - nosniff
+      x-dns-prefetch-control:
+      - 'off'
+      x-download-options:
+      - noopen
+      x-envoy-upstream-service-time:
+      - '13'
+      x-frame-options:
+      - SAMEORIGIN
+      x-permitted-cross-domain-policies:
+      - none
+      x-request-id:
+      - 468b7433-5c66-4954-88dd-ada1309c0d23
+      x-xss-protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '[{"idType": "TICKER", "idValue": "IBM"}]'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '40'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.28.2
+    method: POST
+    uri: https://api.openfigi.com/v3/mapping
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA92c3XOaQBDA/xXG56bDhwr2zQME+QoCCtrpg2Np6yTGVMlMM53+7wXTpqm6SMa1
+        0723KHDr/u729vaDvP/e+jgv5q1377+3Pi0/L1vvWoxZoigyLwjsbutN626+ystvh0HiCWwcDwMz
+        jgW/r9vVX4J+HYXlTcVycZNvqtuYX37Mvy2+6OuP1XPjuPy8WK/u19tlkQ+G1vBQxDZfPGyWxWPy
+        eF89oq9Xq/WdEBfrxU15dTXf3ORFnC+KdSXB/PpQ3lo99WW+yfXb+Xb7clQp7sRKr7c3qnw47O/L
+        Rr5dbJb3xXJ99+v3/3hzhMVERGDR54JFyFQEFjoXLEYSho0EfLCwMGwk5IJFpGoILBgfLFKMdZFw
+        wSLWOggsfD5YRG0EFhkXLFIHg4XBBYssxLCRAR8sJgh+ZDLlgsW0JyGwcPhg4SOcOycuByxSWTPk
+        81mEJswilVVbJMFixvze+SzitIbFLxH/O4tB7IperR+50k3D7Ee1JHaXj5N4FrBP4veor2XA0u5s
+        f7yKgZHvpM83j0KUL/JS7VeTkNTaVdGIBOxPKZGQO+eTgDNaZEi4suJgROsWbB/PIv73naL6oQmC
+        N7VgC6HEwg0RsnsWHIlQYuEpCN7Ugk/flFj4Osa6gPdOSiyCjoLAAs7iUGIxkjD8CJzppMQiijH2
+        iyEXLGIVY13Y9FkELNUYQnbPvAZZPIsgwIK1EbJ7GbwuSLHA2C8yuJJKisUMIbuXwWdwQiyygYSQ
+        9c3gjBYlFpaIcO7M4KwvKRYuxt7pccHCtjBsxOKDRYbhR7g4X2SuheFH4DiVFIsAIU7N4K41Siw8
+        jCqRKXHBwvcwbATuyKHEIpAR4tQMrphRYhHqGHHquIZFFqQqBRa27qoINhLOYBalCFGjwCKUU4bg
+        Rzy4y7USISsEWIwGyQxjXSRwbFaKmPoUbCSaBl0fwacmcC6nEiET2DslJXLs7ks/wvyTit893N4e
+        KP705Z6647fxW0EPDzX1r/yb4oiih6Ps1AvrlKoEHNPLkS+ml28aQmJGvhBc7wziLO38JKhVr7p+
+        qF/c7ojdi85baRYCM/vRv5jAITumohv/FQagqmiOo2vhCf1FZ888Pn1TS0suq9vFZ808YneyrfZs
+        BcHPxHVdbTQ6udosdUcOQq5HB+tqf0RQYOEi9KroYM2AFov6Dr+GLEAbIcOi05OcyMPI9UzIx7Fd
+        vzuV6/sdm7Fg9LtgVdVKegpC/WQE5np2ImQCNmI4emp7GG9T0H+zZDDzbW+AwMIC8xs7EQaB/gxr
+        1I3bKQKLPrh37kRMCOwXTqBahoFRb4XfyiPiRyRlIqWs3eAMfqUb9Q3jOpT4eiFjD8afpu5XcXga
+        sLNvded3jO8GHqQYNBKoZZwYDUtqcN46TQMqQFOj0WtwEj9Jw+CFBmuQFz1JYwQdNKjRMBpU2E7T
+        gNLE1GgEDWKT0zQ4sBTN1uQJxv/V8eAOBSJdwpLmSKOpgZDx8+DqKxUWPS8MZblBluuklTCKO+iH
+        Hx9+Ahh3OVOWSwAA
+    headers:
+      cache-control:
+      - private, no-cache, no-store, must-revalidate
+      content-encoding:
+      - gzip
+      content-security-policy:
+      - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self''
+        https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src
+        ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Tue, 25 Apr 2023 09:33:29 GMT
+      expect-ct:
+      - max-age=0
+      expires:
+      - '0'
+      pragma:
+      - no-cache
+      ratelimit-limit:
+      - '25'
+      ratelimit-remaining:
+      - '6'
+      ratelimit-reset:
+      - '45'
+      referrer-policy:
+      - no-referrer
+      server:
+      - istio-envoy
+      strict-transport-security:
+      - max-age=63244800; includeSubDomains
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding
+      x-content-type-options:
+      - nosniff
+      x-dns-prefetch-control:
+      - 'off'
+      x-download-options:
+      - noopen
+      x-envoy-upstream-service-time:
+      - '5'
+      x-frame-options:
+      - SAMEORIGIN
+      x-permitted-cross-domain-policies:
+      - none
+      x-request-id:
+      - 1a325a34-bdfd-4111-9b8f-e6970e05a72d
+      x-xss-protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '[{"idType": "TICKER", "idValue": "IBM"}]'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '40'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.28.2
+    method: POST
+    uri: https://api.openfigi.com/v3/mapping
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA92c3XOaQBDA/xXG56bDhwr2zQME+QoCCtrpg2Np6yTGVMlMM53+7wXTpqm6SMa1
+        0723KHDr/u729vaDvP/e+jgv5q1377+3Pi0/L1vvWoxZoigyLwjsbutN626+ystvh0HiCWwcDwMz
+        jgW/r9vVX4J+HYXlTcVycZNvqtuYX37Mvy2+6OuP1XPjuPy8WK/u19tlkQ+G1vBQxDZfPGyWxWPy
+        eF89oq9Xq/WdEBfrxU15dTXf3ORFnC+KdSXB/PpQ3lo99WW+yfXb+Xb7clQp7sRKr7c3qnw47O/L
+        Rr5dbJb3xXJ99+v3/3hzhMVERGDR54JFyFQEFjoXLEYSho0EfLCwMGwk5IJFpGoILBgfLFKMdZFw
+        wSLWOggsfD5YRG0EFhkXLFIHg4XBBYssxLCRAR8sJgh+ZDLlgsW0JyGwcPhg4SOcOycuByxSWTPk
+        81mEJswilVVbJMFixvze+SzitIbFLxH/O4tB7IperR+50k3D7Ee1JHaXj5N4FrBP4veor2XA0u5s
+        f7yKgZHvpM83j0KUL/JS7VeTkNTaVdGIBOxPKZGQO+eTgDNaZEi4suJgROsWbB/PIv73naL6oQmC
+        N7VgC6HEwg0RsnsWHIlQYuEpCN7Ugk/flFj4Osa6gPdOSiyCjoLAAs7iUGIxkjD8CJzppMQiijH2
+        iyEXLGIVY13Y9FkELNUYQnbPvAZZPIsgwIK1EbJ7GbwuSLHA2C8yuJJKisUMIbuXwWdwQiyygYSQ
+        9c3gjBYlFpaIcO7M4KwvKRYuxt7pccHCtjBsxOKDRYbhR7g4X2SuheFH4DiVFIsAIU7N4K41Siw8
+        jCqRKXHBwvcwbATuyKHEIpAR4tQMrphRYhHqGHHquIZFFqQqBRa27qoINhLOYBalCFGjwCKUU4bg
+        Rzy4y7USISsEWIwGyQxjXSRwbFaKmPoUbCSaBl0fwacmcC6nEiET2DslJXLs7ks/wvyTit893N4e
+        KP705Z6647fxW0EPDzX1r/yb4oiih6Ps1AvrlKoEHNPLkS+ml28aQmJGvhBc7wziLO38JKhVr7p+
+        qF/c7ojdi85baRYCM/vRv5jAITumohv/FQagqmiOo2vhCf1FZ888Pn1TS0suq9vFZ808YneyrfZs
+        BcHPxHVdbTQ6udosdUcOQq5HB+tqf0RQYOEi9KroYM2AFov6Dr+GLEAbIcOi05OcyMPI9UzIx7Fd
+        vzuV6/sdm7Fg9LtgVdVKegpC/WQE5np2ImQCNmI4emp7GG9T0H+zZDDzbW+AwMIC8xs7EQaB/gxr
+        1I3bKQKLPrh37kRMCOwXTqBahoFRb4XfyiPiRyRlIqWs3eAMfqUb9Q3jOpT4eiFjD8afpu5XcXga
+        sLNvded3jO8GHqQYNBKoZZwYDUtqcN46TQMqQFOj0WtwEj9Jw+CFBmuQFz1JYwQdNKjRMBpU2E7T
+        gNLE1GgEDWKT0zQ4sBTN1uQJxv/V8eAOBSJdwpLmSKOpgZDx8+DqKxUWPS8MZblBluuklTCKO+iH
+        Hx9+Ahh3OVOWSwAA
+    headers:
+      cache-control:
+      - private, no-cache, no-store, must-revalidate
+      content-encoding:
+      - gzip
+      content-security-policy:
+      - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self''
+        https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src
+        ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Tue, 25 Apr 2023 09:33:29 GMT
+      expect-ct:
+      - max-age=0
+      expires:
+      - '0'
+      pragma:
+      - no-cache
+      ratelimit-limit:
+      - '25'
+      ratelimit-remaining:
+      - '5'
+      ratelimit-reset:
+      - '44'
+      referrer-policy:
+      - no-referrer
+      server:
+      - istio-envoy
+      strict-transport-security:
+      - max-age=63244800; includeSubDomains
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding
+      x-content-type-options:
+      - nosniff
+      x-dns-prefetch-control:
+      - 'off'
+      x-download-options:
+      - noopen
+      x-envoy-upstream-service-time:
+      - '9'
+      x-frame-options:
+      - SAMEORIGIN
+      x-permitted-cross-domain-policies:
+      - none
+      x-request-id:
+      - da3ad347-9c02-4d8c-b205-96fe0d4ddfa4
+      x-xss-protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '[{"idType": "TICKER", "idValue": "IBM"}]'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '40'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.28.2
+    method: POST
+    uri: https://api.openfigi.com/v3/mapping
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA92c3XOaQBDA/xXG56bDhwr2zQME+QoCCtrpg2Np6yTGVMlMM53+7wXTpqm6SMa1
+        0723KHDr/u729vaDvP/e+jgv5q1377+3Pi0/L1vvWoxZoigyLwjsbutN626+ystvh0HiCWwcDwMz
+        jgW/r9vVX4J+HYXlTcVycZNvqtuYX37Mvy2+6OuP1XPjuPy8WK/u19tlkQ+G1vBQxDZfPGyWxWPy
+        eF89oq9Xq/WdEBfrxU15dTXf3ORFnC+KdSXB/PpQ3lo99WW+yfXb+Xb7clQp7sRKr7c3qnw47O/L
+        Rr5dbJb3xXJ99+v3/3hzhMVERGDR54JFyFQEFjoXLEYSho0EfLCwMGwk5IJFpGoILBgfLFKMdZFw
+        wSLWOggsfD5YRG0EFhkXLFIHg4XBBYssxLCRAR8sJgh+ZDLlgsW0JyGwcPhg4SOcOycuByxSWTPk
+        81mEJswilVVbJMFixvze+SzitIbFLxH/O4tB7IperR+50k3D7Ee1JHaXj5N4FrBP4veor2XA0u5s
+        f7yKgZHvpM83j0KUL/JS7VeTkNTaVdGIBOxPKZGQO+eTgDNaZEi4suJgROsWbB/PIv73naL6oQmC
+        N7VgC6HEwg0RsnsWHIlQYuEpCN7Ugk/flFj4Osa6gPdOSiyCjoLAAs7iUGIxkjD8CJzppMQiijH2
+        iyEXLGIVY13Y9FkELNUYQnbPvAZZPIsgwIK1EbJ7GbwuSLHA2C8yuJJKisUMIbuXwWdwQiyygYSQ
+        9c3gjBYlFpaIcO7M4KwvKRYuxt7pccHCtjBsxOKDRYbhR7g4X2SuheFH4DiVFIsAIU7N4K41Siw8
+        jCqRKXHBwvcwbATuyKHEIpAR4tQMrphRYhHqGHHquIZFFqQqBRa27qoINhLOYBalCFGjwCKUU4bg
+        Rzy4y7USISsEWIwGyQxjXSRwbFaKmPoUbCSaBl0fwacmcC6nEiET2DslJXLs7ks/wvyTit893N4e
+        KP705Z6647fxW0EPDzX1r/yb4oiih6Ps1AvrlKoEHNPLkS+ml28aQmJGvhBc7wziLO38JKhVr7p+
+        qF/c7ojdi85baRYCM/vRv5jAITumohv/FQagqmiOo2vhCf1FZ888Pn1TS0suq9vFZ808YneyrfZs
+        BcHPxHVdbTQ6udosdUcOQq5HB+tqf0RQYOEi9KroYM2AFov6Dr+GLEAbIcOi05OcyMPI9UzIx7Fd
+        vzuV6/sdm7Fg9LtgVdVKegpC/WQE5np2ImQCNmI4emp7GG9T0H+zZDDzbW+AwMIC8xs7EQaB/gxr
+        1I3bKQKLPrh37kRMCOwXTqBahoFRb4XfyiPiRyRlIqWs3eAMfqUb9Q3jOpT4eiFjD8afpu5XcXga
+        sLNvded3jO8GHqQYNBKoZZwYDUtqcN46TQMqQFOj0WtwEj9Jw+CFBmuQFz1JYwQdNKjRMBpU2E7T
+        gNLE1GgEDWKT0zQ4sBTN1uQJxv/V8eAOBSJdwpLmSKOpgZDx8+DqKxUWPS8MZblBluuklTCKO+iH
+        Hx9+Ahh3OVOWSwAA
+    headers:
+      cache-control:
+      - private, no-cache, no-store, must-revalidate
+      content-encoding:
+      - gzip
+      content-security-policy:
+      - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self''
+        https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src
+        ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Tue, 25 Apr 2023 09:33:29 GMT
+      expect-ct:
+      - max-age=0
+      expires:
+      - '0'
+      pragma:
+      - no-cache
+      ratelimit-limit:
+      - '25'
+      ratelimit-remaining:
+      - '4'
+      ratelimit-reset:
+      - '44'
+      referrer-policy:
+      - no-referrer
+      server:
+      - istio-envoy
+      strict-transport-security:
+      - max-age=63244800; includeSubDomains
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding
+      x-content-type-options:
+      - nosniff
+      x-dns-prefetch-control:
+      - 'off'
+      x-download-options:
+      - noopen
+      x-envoy-upstream-service-time:
+      - '10'
+      x-frame-options:
+      - SAMEORIGIN
+      x-permitted-cross-domain-policies:
+      - none
+      x-request-id:
+      - c492dfd2-17cd-456f-918e-ea1f352f0b90
+      x-xss-protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '[{"idType": "TICKER", "idValue": "IBM"}]'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '40'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.28.2
+    method: POST
+    uri: https://api.openfigi.com/v3/mapping
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA92c3XOaQBDA/xXG56bDhwr2zQME+QoCCtrpg2Np6yTGVMlMM53+7wXTpqm6SMa1
+        0723KHDr/u729vaDvP/e+jgv5q1377+3Pi0/L1vvWoxZoigyLwjsbutN626+ystvh0HiCWwcDwMz
+        jgW/r9vVX4J+HYXlTcVycZNvqtuYX37Mvy2+6OuP1XPjuPy8WK/u19tlkQ+G1vBQxDZfPGyWxWPy
+        eF89oq9Xq/WdEBfrxU15dTXf3ORFnC+KdSXB/PpQ3lo99WW+yfXb+Xb7clQp7sRKr7c3qnw47O/L
+        Rr5dbJb3xXJ99+v3/3hzhMVERGDR54JFyFQEFjoXLEYSho0EfLCwMGwk5IJFpGoILBgfLFKMdZFw
+        wSLWOggsfD5YRG0EFhkXLFIHg4XBBYssxLCRAR8sJgh+ZDLlgsW0JyGwcPhg4SOcOycuByxSWTPk
+        81mEJswilVVbJMFixvze+SzitIbFLxH/O4tB7IperR+50k3D7Ee1JHaXj5N4FrBP4veor2XA0u5s
+        f7yKgZHvpM83j0KUL/JS7VeTkNTaVdGIBOxPKZGQO+eTgDNaZEi4suJgROsWbB/PIv73naL6oQmC
+        N7VgC6HEwg0RsnsWHIlQYuEpCN7Ugk/flFj4Osa6gPdOSiyCjoLAAs7iUGIxkjD8CJzppMQiijH2
+        iyEXLGIVY13Y9FkELNUYQnbPvAZZPIsgwIK1EbJ7GbwuSLHA2C8yuJJKisUMIbuXwWdwQiyygYSQ
+        9c3gjBYlFpaIcO7M4KwvKRYuxt7pccHCtjBsxOKDRYbhR7g4X2SuheFH4DiVFIsAIU7N4K41Siw8
+        jCqRKXHBwvcwbATuyKHEIpAR4tQMrphRYhHqGHHquIZFFqQqBRa27qoINhLOYBalCFGjwCKUU4bg
+        Rzy4y7USISsEWIwGyQxjXSRwbFaKmPoUbCSaBl0fwacmcC6nEiET2DslJXLs7ks/wvyTit893N4e
+        KP705Z6647fxW0EPDzX1r/yb4oiih6Ps1AvrlKoEHNPLkS+ml28aQmJGvhBc7wziLO38JKhVr7p+
+        qF/c7ojdi85baRYCM/vRv5jAITumohv/FQagqmiOo2vhCf1FZ888Pn1TS0suq9vFZ808YneyrfZs
+        BcHPxHVdbTQ6udosdUcOQq5HB+tqf0RQYOEi9KroYM2AFov6Dr+GLEAbIcOi05OcyMPI9UzIx7Fd
+        vzuV6/sdm7Fg9LtgVdVKegpC/WQE5np2ImQCNmI4emp7GG9T0H+zZDDzbW+AwMIC8xs7EQaB/gxr
+        1I3bKQKLPrh37kRMCOwXTqBahoFRb4XfyiPiRyRlIqWs3eAMfqUb9Q3jOpT4eiFjD8afpu5XcXga
+        sLNvded3jO8GHqQYNBKoZZwYDUtqcN46TQMqQFOj0WtwEj9Jw+CFBmuQFz1JYwQdNKjRMBpU2E7T
+        gNLE1GgEDWKT0zQ4sBTN1uQJxv/V8eAOBSJdwpLmSKOpgZDx8+DqKxUWPS8MZblBluuklTCKO+iH
+        Hx9+Ahh3OVOWSwAA
+    headers:
+      cache-control:
+      - private, no-cache, no-store, must-revalidate
+      content-encoding:
+      - gzip
+      content-security-policy:
+      - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self''
+        https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src
+        ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Tue, 25 Apr 2023 09:33:30 GMT
+      expect-ct:
+      - max-age=0
+      expires:
+      - '0'
+      pragma:
+      - no-cache
+      ratelimit-limit:
+      - '25'
+      ratelimit-remaining:
+      - '3'
+      ratelimit-reset:
+      - '44'
+      referrer-policy:
+      - no-referrer
+      server:
+      - istio-envoy
+      strict-transport-security:
+      - max-age=63244800; includeSubDomains
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding
+      x-content-type-options:
+      - nosniff
+      x-dns-prefetch-control:
+      - 'off'
+      x-download-options:
+      - noopen
+      x-envoy-upstream-service-time:
+      - '6'
+      x-frame-options:
+      - SAMEORIGIN
+      x-permitted-cross-domain-policies:
+      - none
+      x-request-id:
+      - 3b48f844-2f8a-44de-aa86-5665b3f5e977
+      x-xss-protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '[{"idType": "TICKER", "idValue": "IBM"}]'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '40'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.28.2
+    method: POST
+    uri: https://api.openfigi.com/v3/mapping
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA92c3XOaQBDA/xXG56bDhwr2zQME+QoCCtrpg2Np6yTGVMlMM53+7wXTpqm6SMa1
+        0723KHDr/u729vaDvP/e+jgv5q1377+3Pi0/L1vvWoxZoigyLwjsbutN626+ystvh0HiCWwcDwMz
+        jgW/r9vVX4J+HYXlTcVycZNvqtuYX37Mvy2+6OuP1XPjuPy8WK/u19tlkQ+G1vBQxDZfPGyWxWPy
+        eF89oq9Xq/WdEBfrxU15dTXf3ORFnC+KdSXB/PpQ3lo99WW+yfXb+Xb7clQp7sRKr7c3qnw47O/L
+        Rr5dbJb3xXJ99+v3/3hzhMVERGDR54JFyFQEFjoXLEYSho0EfLCwMGwk5IJFpGoILBgfLFKMdZFw
+        wSLWOggsfD5YRG0EFhkXLFIHg4XBBYssxLCRAR8sJgh+ZDLlgsW0JyGwcPhg4SOcOycuByxSWTPk
+        81mEJswilVVbJMFixvze+SzitIbFLxH/O4tB7IperR+50k3D7Ee1JHaXj5N4FrBP4veor2XA0u5s
+        f7yKgZHvpM83j0KUL/JS7VeTkNTaVdGIBOxPKZGQO+eTgDNaZEi4suJgROsWbB/PIv73naL6oQmC
+        N7VgC6HEwg0RsnsWHIlQYuEpCN7Ugk/flFj4Osa6gPdOSiyCjoLAAs7iUGIxkjD8CJzppMQiijH2
+        iyEXLGIVY13Y9FkELNUYQnbPvAZZPIsgwIK1EbJ7GbwuSLHA2C8yuJJKisUMIbuXwWdwQiyygYSQ
+        9c3gjBYlFpaIcO7M4KwvKRYuxt7pccHCtjBsxOKDRYbhR7g4X2SuheFH4DiVFIsAIU7N4K41Siw8
+        jCqRKXHBwvcwbATuyKHEIpAR4tQMrphRYhHqGHHquIZFFqQqBRa27qoINhLOYBalCFGjwCKUU4bg
+        Rzy4y7USISsEWIwGyQxjXSRwbFaKmPoUbCSaBl0fwacmcC6nEiET2DslJXLs7ks/wvyTit893N4e
+        KP705Z6647fxW0EPDzX1r/yb4oiih6Ps1AvrlKoEHNPLkS+ml28aQmJGvhBc7wziLO38JKhVr7p+
+        qF/c7ojdi85baRYCM/vRv5jAITumohv/FQagqmiOo2vhCf1FZ888Pn1TS0suq9vFZ808YneyrfZs
+        BcHPxHVdbTQ6udosdUcOQq5HB+tqf0RQYOEi9KroYM2AFov6Dr+GLEAbIcOi05OcyMPI9UzIx7Fd
+        vzuV6/sdm7Fg9LtgVdVKegpC/WQE5np2ImQCNmI4emp7GG9T0H+zZDDzbW+AwMIC8xs7EQaB/gxr
+        1I3bKQKLPrh37kRMCOwXTqBahoFRb4XfyiPiRyRlIqWs3eAMfqUb9Q3jOpT4eiFjD8afpu5XcXga
+        sLNvded3jO8GHqQYNBKoZZwYDUtqcN46TQMqQFOj0WtwEj9Jw+CFBmuQFz1JYwQdNKjRMBpU2E7T
+        gNLE1GgEDWKT0zQ4sBTN1uQJxv/V8eAOBSJdwpLmSKOpgZDx8+DqKxUWPS8MZblBluuklTCKO+iH
+        Hx9+Ahh3OVOWSwAA
+    headers:
+      cache-control:
+      - private, no-cache, no-store, must-revalidate
+      content-encoding:
+      - gzip
+      content-security-policy:
+      - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self''
+        https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src
+        ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Tue, 25 Apr 2023 09:33:30 GMT
+      expect-ct:
+      - max-age=0
+      expires:
+      - '0'
+      pragma:
+      - no-cache
+      ratelimit-limit:
+      - '25'
+      ratelimit-remaining:
+      - '2'
+      ratelimit-reset:
+      - '43'
+      referrer-policy:
+      - no-referrer
+      server:
+      - istio-envoy
+      strict-transport-security:
+      - max-age=63244800; includeSubDomains
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding
+      x-content-type-options:
+      - nosniff
+      x-dns-prefetch-control:
+      - 'off'
+      x-download-options:
+      - noopen
+      x-envoy-upstream-service-time:
+      - '5'
+      x-frame-options:
+      - SAMEORIGIN
+      x-permitted-cross-domain-policies:
+      - none
+      x-request-id:
+      - 19966286-6ab0-4c0f-9b35-4305d0870840
+      x-xss-protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '[{"idType": "TICKER", "idValue": "IBM"}]'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '40'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.28.2
+    method: POST
+    uri: https://api.openfigi.com/v3/mapping
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA92c3XOaQBDA/xXG56bDhwr2zQME+QoCCtrpg2Np6yTGVMlMM53+7wXTpqm6SMa1
+        0723KHDr/u729vaDvP/e+jgv5q1377+3Pi0/L1vvWoxZoigyLwjsbutN626+ystvh0HiCWwcDwMz
+        jgW/r9vVX4J+HYXlTcVycZNvqtuYX37Mvy2+6OuP1XPjuPy8WK/u19tlkQ+G1vBQxDZfPGyWxWPy
+        eF89oq9Xq/WdEBfrxU15dTXf3ORFnC+KdSXB/PpQ3lo99WW+yfXb+Xb7clQp7sRKr7c3qnw47O/L
+        Rr5dbJb3xXJ99+v3/3hzhMVERGDR54JFyFQEFjoXLEYSho0EfLCwMGwk5IJFpGoILBgfLFKMdZFw
+        wSLWOggsfD5YRG0EFhkXLFIHg4XBBYssxLCRAR8sJgh+ZDLlgsW0JyGwcPhg4SOcOycuByxSWTPk
+        81mEJswilVVbJMFixvze+SzitIbFLxH/O4tB7IperR+50k3D7Ee1JHaXj5N4FrBP4veor2XA0u5s
+        f7yKgZHvpM83j0KUL/JS7VeTkNTaVdGIBOxPKZGQO+eTgDNaZEi4suJgROsWbB/PIv73naL6oQmC
+        N7VgC6HEwg0RsnsWHIlQYuEpCN7Ugk/flFj4Osa6gPdOSiyCjoLAAs7iUGIxkjD8CJzppMQiijH2
+        iyEXLGIVY13Y9FkELNUYQnbPvAZZPIsgwIK1EbJ7GbwuSLHA2C8yuJJKisUMIbuXwWdwQiyygYSQ
+        9c3gjBYlFpaIcO7M4KwvKRYuxt7pccHCtjBsxOKDRYbhR7g4X2SuheFH4DiVFIsAIU7N4K41Siw8
+        jCqRKXHBwvcwbATuyKHEIpAR4tQMrphRYhHqGHHquIZFFqQqBRa27qoINhLOYBalCFGjwCKUU4bg
+        Rzy4y7USISsEWIwGyQxjXSRwbFaKmPoUbCSaBl0fwacmcC6nEiET2DslJXLs7ks/wvyTit893N4e
+        KP705Z6647fxW0EPDzX1r/yb4oiih6Ps1AvrlKoEHNPLkS+ml28aQmJGvhBc7wziLO38JKhVr7p+
+        qF/c7ojdi85baRYCM/vRv5jAITumohv/FQagqmiOo2vhCf1FZ888Pn1TS0suq9vFZ808YneyrfZs
+        BcHPxHVdbTQ6udosdUcOQq5HB+tqf0RQYOEi9KroYM2AFov6Dr+GLEAbIcOi05OcyMPI9UzIx7Fd
+        vzuV6/sdm7Fg9LtgVdVKegpC/WQE5np2ImQCNmI4emp7GG9T0H+zZDDzbW+AwMIC8xs7EQaB/gxr
+        1I3bKQKLPrh37kRMCOwXTqBahoFRb4XfyiPiRyRlIqWs3eAMfqUb9Q3jOpT4eiFjD8afpu5XcXga
+        sLNvded3jO8GHqQYNBKoZZwYDUtqcN46TQMqQFOj0WtwEj9Jw+CFBmuQFz1JYwQdNKjRMBpU2E7T
+        gNLE1GgEDWKT0zQ4sBTN1uQJxv/V8eAOBSJdwpLmSKOpgZDx8+DqKxUWPS8MZblBluuklTCKO+iH
+        Hx9+Ahh3OVOWSwAA
+    headers:
+      cache-control:
+      - private, no-cache, no-store, must-revalidate
+      content-encoding:
+      - gzip
+      content-security-policy:
+      - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self''
+        https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src
+        ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Tue, 25 Apr 2023 09:33:31 GMT
+      expect-ct:
+      - max-age=0
+      expires:
+      - '0'
+      pragma:
+      - no-cache
+      ratelimit-limit:
+      - '25'
+      ratelimit-remaining:
+      - '1'
+      ratelimit-reset:
+      - '43'
+      referrer-policy:
+      - no-referrer
+      server:
+      - istio-envoy
+      strict-transport-security:
+      - max-age=63244800; includeSubDomains
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding
+      x-content-type-options:
+      - nosniff
+      x-dns-prefetch-control:
+      - 'off'
+      x-download-options:
+      - noopen
+      x-envoy-upstream-service-time:
+      - '5'
+      x-frame-options:
+      - SAMEORIGIN
+      x-permitted-cross-domain-policies:
+      - none
+      x-request-id:
+      - 16ef61b3-2aec-4a3a-a920-17a5f7ea6f24
+      x-xss-protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '[{"idType": "TICKER", "idValue": "IBM"}]'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '40'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.28.2
+    method: POST
+    uri: https://api.openfigi.com/v3/mapping
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA92c3XOaQBDA/xXG56bDhwr2zQME+QoCCtrpg2Np6yTGVMlMM53+7wXTpqm6SMa1
+        0723KHDr/u729vaDvP/e+jgv5q1377+3Pi0/L1vvWoxZoigyLwjsbutN626+ystvh0HiCWwcDwMz
+        jgW/r9vVX4J+HYXlTcVycZNvqtuYX37Mvy2+6OuP1XPjuPy8WK/u19tlkQ+G1vBQxDZfPGyWxWPy
+        eF89oq9Xq/WdEBfrxU15dTXf3ORFnC+KdSXB/PpQ3lo99WW+yfXb+Xb7clQp7sRKr7c3qnw47O/L
+        Rr5dbJb3xXJ99+v3/3hzhMVERGDR54JFyFQEFjoXLEYSho0EfLCwMGwk5IJFpGoILBgfLFKMdZFw
+        wSLWOggsfD5YRG0EFhkXLFIHg4XBBYssxLCRAR8sJgh+ZDLlgsW0JyGwcPhg4SOcOycuByxSWTPk
+        81mEJswilVVbJMFixvze+SzitIbFLxH/O4tB7IperR+50k3D7Ee1JHaXj5N4FrBP4veor2XA0u5s
+        f7yKgZHvpM83j0KUL/JS7VeTkNTaVdGIBOxPKZGQO+eTgDNaZEi4suJgROsWbB/PIv73naL6oQmC
+        N7VgC6HEwg0RsnsWHIlQYuEpCN7Ugk/flFj4Osa6gPdOSiyCjoLAAs7iUGIxkjD8CJzppMQiijH2
+        iyEXLGIVY13Y9FkELNUYQnbPvAZZPIsgwIK1EbJ7GbwuSLHA2C8yuJJKisUMIbuXwWdwQiyygYSQ
+        9c3gjBYlFpaIcO7M4KwvKRYuxt7pccHCtjBsxOKDRYbhR7g4X2SuheFH4DiVFIsAIU7N4K41Siw8
+        jCqRKXHBwvcwbATuyKHEIpAR4tQMrphRYhHqGHHquIZFFqQqBRa27qoINhLOYBalCFGjwCKUU4bg
+        Rzy4y7USISsEWIwGyQxjXSRwbFaKmPoUbCSaBl0fwacmcC6nEiET2DslJXLs7ks/wvyTit893N4e
+        KP705Z6647fxW0EPDzX1r/yb4oiih6Ps1AvrlKoEHNPLkS+ml28aQmJGvhBc7wziLO38JKhVr7p+
+        qF/c7ojdi85baRYCM/vRv5jAITumohv/FQagqmiOo2vhCf1FZ888Pn1TS0suq9vFZ808YneyrfZs
+        BcHPxHVdbTQ6udosdUcOQq5HB+tqf0RQYOEi9KroYM2AFov6Dr+GLEAbIcOi05OcyMPI9UzIx7Fd
+        vzuV6/sdm7Fg9LtgVdVKegpC/WQE5np2ImQCNmI4emp7GG9T0H+zZDDzbW+AwMIC8xs7EQaB/gxr
+        1I3bKQKLPrh37kRMCOwXTqBahoFRb4XfyiPiRyRlIqWs3eAMfqUb9Q3jOpT4eiFjD8afpu5XcXga
+        sLNvded3jO8GHqQYNBKoZZwYDUtqcN46TQMqQFOj0WtwEj9Jw+CFBmuQFz1JYwQdNKjRMBpU2E7T
+        gNLE1GgEDWKT0zQ4sBTN1uQJxv/V8eAOBSJdwpLmSKOpgZDx8+DqKxUWPS8MZblBluuklTCKO+iH
+        Hx9+Ahh3OVOWSwAA
+    headers:
+      cache-control:
+      - private, no-cache, no-store, must-revalidate
+      content-encoding:
+      - gzip
+      content-security-policy:
+      - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self''
+        https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src
+        ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Tue, 25 Apr 2023 09:33:31 GMT
+      expect-ct:
+      - max-age=0
+      expires:
+      - '0'
+      pragma:
+      - no-cache
+      ratelimit-limit:
+      - '25'
+      ratelimit-remaining:
+      - '0'
+      ratelimit-reset:
+      - '42'
+      referrer-policy:
+      - no-referrer
+      server:
+      - istio-envoy
+      strict-transport-security:
+      - max-age=63244800; includeSubDomains
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding
+      x-content-type-options:
+      - nosniff
+      x-dns-prefetch-control:
+      - 'off'
+      x-download-options:
+      - noopen
+      x-envoy-upstream-service-time:
+      - '9'
+      x-frame-options:
+      - SAMEORIGIN
+      x-permitted-cross-domain-policies:
+      - none
+      x-request-id:
+      - 114115cf-17f5-4cd5-afc1-fa33b407a6e6
+      x-xss-protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '[{"idType": "TICKER", "idValue": "IBM"}]'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '40'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.28.2
+    method: POST
+    uri: https://api.openfigi.com/v3/mapping
+  response:
+    body:
+      string: Too many requests, please try again later.
+    headers:
+      content-length:
+      - '42'
+      content-security-policy:
+      - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self''
+        https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src
+        ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+      content-type:
+      - text/html; charset=utf-8
+      date:
+      - Tue, 25 Apr 2023 09:33:32 GMT
+      expect-ct:
+      - max-age=0
+      ratelimit-limit:
+      - '25'
+      ratelimit-remaining:
+      - '0'
+      ratelimit-reset:
+      - '42'
+      referrer-policy:
+      - no-referrer
+      retry-after:
+      - '60'
+      server:
+      - istio-envoy
+      strict-transport-security:
+      - max-age=63244800; includeSubDomains
+      vary:
+      - Accept-Encoding
+      x-content-type-options:
+      - nosniff
+      x-dns-prefetch-control:
+      - 'off'
+      x-download-options:
+      - noopen
+      x-envoy-upstream-service-time:
+      - '3'
+      x-frame-options:
+      - SAMEORIGIN
+      x-permitted-cross-domain-policies:
+      - none
+      x-request-id:
+      - e5f0425b-017d-4d3f-abc8-d8d0372d35ef
+      x-xss-protection:
+      - '0'
+    status:
+      code: 429
+      message: Too Many Requests
+version: 1

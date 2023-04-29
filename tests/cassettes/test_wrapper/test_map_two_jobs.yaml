@@ -1,0 +1,102 @@
+interactions:
+- request:
+    body: '[{"idType": "TICKER", "idValue": "IBM"}, {"idType": "TICKER", "idValue":
+      "XRX"}]'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '80'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.28.2
+    method: POST
+    uri: https://api.openfigi.com/v3/mapping
+  response:
+    body:
+      string: !!binary |
+        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
+    headers:
+      cache-control:
+      - private, no-cache, no-store, must-revalidate
+      content-encoding:
+      - gzip
+      content-security-policy:
+      - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self''
+        https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src
+        ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Tue, 25 Apr 2023 09:20:41 GMT
+      expect-ct:
+      - max-age=0
+      expires:
+      - '0'
+      pragma:
+      - no-cache
+      ratelimit-limit:
+      - '25'
+      ratelimit-remaining:
+      - '23'
+      ratelimit-reset:
+      - '60'
+      referrer-policy:
+      - no-referrer
+      server:
+      - istio-envoy
+      strict-transport-security:
+      - max-age=63244800; includeSubDomains
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding
+      x-content-type-options:
+      - nosniff
+      x-dns-prefetch-control:
+      - 'off'
+      x-download-options:
+      - noopen
+      x-envoy-upstream-service-time:
+      - '5'
+      x-frame-options:
+      - SAMEORIGIN
+      x-permitted-cross-domain-policies:
+      - none
+      x-request-id:
+      - 0e8589f1-27f7-45e3-8845-67f975973d70
+      x-xss-protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+version: 1

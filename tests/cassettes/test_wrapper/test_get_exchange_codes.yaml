@@ -1,0 +1,130 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.28.2
+    method: GET
+    uri: https://api.openfigi.com/v3/mapping/values/exchCode
+  response:
+    body:
+      string: !!binary |
+        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
+        //8OD9GzqdMbAAA=
+    headers:
+      cache-control:
+      - private, no-cache, no-store, must-revalidate
+      content-encoding:
+      - gzip
+      content-security-policy:
+      - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self''
+        https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src
+        ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Tue, 25 Apr 2023 09:20:44 GMT
+      expect-ct:
+      - max-age=0
+      expires:
+      - '0'
+      pragma:
+      - no-cache
+      ratelimit-limit:
+      - '25'
+      ratelimit-remaining:
+      - '16'
+      ratelimit-reset:
+      - '57'
+      referrer-policy:
+      - no-referrer
+      server:
+      - istio-envoy
+      strict-transport-security:
+      - max-age=63244800; includeSubDomains
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding
+      x-content-type-options:
+      - nosniff
+      x-dns-prefetch-control:
+      - 'off'
+      x-download-options:
+      - noopen
+      x-envoy-upstream-service-time:
+      - '39'
+      x-frame-options:
+      - SAMEORIGIN
+      x-permitted-cross-domain-policies:
+      - none
+      x-request-id:
+      - a1c209f3-fed5-46e8-a674-044ef1a58976
+      x-xss-protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+version: 1

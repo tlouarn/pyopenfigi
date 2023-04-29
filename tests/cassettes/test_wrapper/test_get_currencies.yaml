@@ -1,0 +1,89 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.28.2
+    method: GET
+    uri: https://api.openfigi.com/v3/mapping/values/currency
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAAyWVu5LcNhBF/2XCLQW2JT+kjA8Q5BAAsXiQIFUKXGU78QYuq+zEpcTf46/yl2jv
+        meQMqtF9G41ucP65/f3zy1+/fr59+Hh7enq6vbl1YxTNKE5BdE70WIIVt05MWSywslt/EQ98Lg+l
+        0Hda9718+rGIZhItuzP2BQtZ+gC3XkwOvogZeyHqiPAP8cRyJvGSz9A9qPMMo5QHo91hZj3/JjrW
+        TjpDmGGBp7hh36qYBqhKh4p9N+LJ+lpfORrVON6lOa5YUBg5jxkUa4zsxmKx2jVJJzeZdVG9pnYw
+        wT9fOS1Snu6KmlZ5TklZbB+hbsAa3ZKdB6hcdmHXKcpyqzYQlViXZ/HUel5hkMKcdMK5qINzlf8y
+        6iSLkdriMvwsBuzPil0S66zYpUjnjv+dvPcNRt3qaqSwWjgravXKssZDTPAYoXq3csL1Ul9cJ31H
+        1W5VrKMWl5XRkddxZrezJtYzCX6UxdsOysdTtffS9PTd0y+fNqi+ezR9dWXhVzn9Dg/ijt/Fph56
+        ps+f6phn9j2zH8gfmMTAvIcFy6I8wemmwya1EKUQmJfNax07TUQ0iopWPnHWGSPVR4e9aBLjKZ3n
+        Tva0OajdxItJVTrpUN0Zn8xbzAPrkfVoYYTYmdbMtGar8+dF95SZ7uwMdHAXN3U1Ryx0Jic0me5c
+        sPB28645zbyefOF/6X2XuYe6mXKXWvEeKm/hq1DoUonKXvg2lKTJKuiXHTJB5ZJC7fSy66gOVttE
+        zFxMzSqr0tJ64nJWqEGsCOymhwZOEDvH2atKP7IO2L6RvX0Lv4Nv4Tv4PfwB/gh/gu8hY9K6CVro
+        4AYfPmTpKlTe1ndwgQHi2ePZq4o2oEyrG5+hNqBAw9s4QxRGctH8xme6GXwYwGbYNQ87ChNRE+ec
+        PGSXNrZlgMQy7M1hcUQ5/B06nip4is3jz/i3gOfGnUQ0I7XEh4VcidhEFQn/FCHKmd2MZuYMj05l
+        dgtRhbyFjJUTVvwrnoxq27nthuXCcinXyZ/K1T2op39RxeV18xdjePEhu3h81+FggIr6/9//Xvvw
+        6ctXL7XwmokHAAA=
+    headers:
+      cache-control:
+      - private, no-cache, no-store, must-revalidate
+      content-encoding:
+      - gzip
+      content-security-policy:
+      - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self''
+        https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src
+        ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Tue, 25 Apr 2023 09:20:44 GMT
+      expect-ct:
+      - max-age=0
+      expires:
+      - '0'
+      pragma:
+      - no-cache
+      ratelimit-limit:
+      - '25'
+      ratelimit-remaining:
+      - '14'
+      ratelimit-reset:
+      - '56'
+      referrer-policy:
+      - no-referrer
+      server:
+      - istio-envoy
+      strict-transport-security:
+      - max-age=63244800; includeSubDomains
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding
+      x-content-type-options:
+      - nosniff
+      x-dns-prefetch-control:
+      - 'off'
+      x-download-options:
+      - noopen
+      x-envoy-upstream-service-time:
+      - '8'
+      x-frame-options:
+      - SAMEORIGIN
+      x-permitted-cross-domain-policies:
+      - none
+      x-request-id:
+      - 4e42bc2c-b9b7-4c00-9451-128692737a76
+      x-xss-protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+version: 1
